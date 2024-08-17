@@ -1,7 +1,6 @@
 backend:
-  name: github
-  repo: SimeonLukas/HV-Homepage
-media_folder: "static/images/uploads" 
+  name: git-gateway
+media_folder: "/static/images/uploads" 
 public_folder: "/images/uploads"
 collections:
   - name: "blog" # Used in routes, e.g., /admin/collections/blog
