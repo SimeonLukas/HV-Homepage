@@ -1,11 +1,15 @@
-+++
-title = "Eight post"
-date = 2019-01-08
-
-[taxonomies]
-categories = ["Even"]
-tags = ["placeholder posts", "tag2"]
-+++
+---
+title: Eight post
+date: 2019-01-08
+taxonomies:
+  categories:
+    - Even
+  tags:
+    - placeholder posts
+    - tag2
+thumbnail: /images/uploads/2024_korbi-poster-quadrat_qf1a.jpg
+rating: 5
+---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
 incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
