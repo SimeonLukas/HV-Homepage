@@ -7,7 +7,7 @@ taxonomies:
   tags:
     - placeholder posts
     - tag2
-thumbnail: /images/uploads/2024_korbi-poster-quadrat_qf1a.jpg
+thumbnail: /images/uploads/bw-logo.c4khbntd.svg
 rating: 5
 ---
 
