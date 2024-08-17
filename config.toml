@@ -1,6 +1,6 @@
 # The URL the site will be built for
 base_url = "https://historischerverein.surge.sh/"
-theme = "wanderlust"
+theme = "wl"
 generate_rss = true
 title = "Freileben"
 description = "Dein erfülltes Leben"
