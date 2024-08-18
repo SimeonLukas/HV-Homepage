@@ -12,3 +12,10 @@
 {{ page.date | date(format="%d.%m.%Y")}}
 </span>
 {% endmacro page_list %}
+
+
+{% macro page_thumbnail(page) %}
+{% if page.thumbnail %}
+<h1>{{ page.thumbnail }}</h1>
+{% endif %}
+{% endmacro page_list %}
