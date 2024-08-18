@@ -1,9 +1,9 @@
 # The URL the site will be built for
-base_url = "https://historischerverein.surge.sh/"
+base_url = "https://hist.staneks.de"
 theme = "wl"
 generate_rss = true
-title = "Freileben"
-description = "Dein erfülltes Leben"
+title = "Historischer Verein Oberammergau"
+description = "Die Website des Historischen Vereins Oberammergau. Wir freuen uns auf Sie!"
 compile_sass = false
 build_search_index = true
 
