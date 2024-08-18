@@ -35,3 +35,4 @@ collections:
           name: "image"
           widget: "image"
           width: 400
+          required: false
