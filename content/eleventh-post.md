@@ -4,7 +4,7 @@ date = 2019-01-11
 
 [taxonomies]
 categories = ["Newsletter"]
-tags = ["placeholder posts", "tag1"]
+tags = ["Test", "Fun", "Aktuell"]
 
 [extra]
 image = "/images/uploads/2024_korbi-poster-quadrat_qf1a.jpg"
