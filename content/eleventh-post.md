@@ -5,6 +5,9 @@ date = 2019-01-11
 [taxonomies]
 categories = ["Newsletter"]
 tags = ["placeholder posts", "tag1"]
+
+[extra]
+image = "/images/uploads/2024_korbi-poster-quadrat_qf1a.jpg"
 +++
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
