@@ -1,16 +1,7 @@
----
-title: Eight post
-date: 2019-01-08
-taxonomies:
-  categories:
-    - Even
-  tags:
-    - placeholder posts
-    - tag2
-thumbnail: /images/uploads/bw-logo.c4khbntd.svg
-rating: 5
----
-
++++
+title = "Test"
+date = "2024-08-18T21:03:00.000Z"
++++
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
 incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
 nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
