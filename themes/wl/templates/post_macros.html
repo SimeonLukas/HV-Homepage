@@ -15,7 +15,9 @@
 
 
 {% macro page_thumbnail(page) %}
-{% if page.thumbnail %}
-<h1>{{ page.thumbnail }}</h1>
+{% if page.extra.image %}
+<header class="masthead" style="background-image: url('{{ page.extra.image }}')">
+{% else %}
+<header class="masthead" style="background-image: url('{{ get_url(path="/img/post-bg.jpg")}}')">
 {% endif %}
 {% endmacro page_list %}
