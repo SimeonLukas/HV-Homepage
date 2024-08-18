@@ -7,6 +7,7 @@ locale: "de"
 collections:
   - name: "blog" # Used in routes, e.g., /admin/collections/blog
     format: toml-frontmatter
+    preview: false
     label: "Blog" # Used in the UI
     folder: "content" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
