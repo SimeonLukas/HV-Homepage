@@ -3,7 +3,7 @@ title = "Eleventh post"
 date = 2019-01-11
 
 [taxonomies]
-categories = ["Odd"]
+categories = ["Newsletter"]
 tags = ["placeholder posts", "tag1"]
 +++
 
