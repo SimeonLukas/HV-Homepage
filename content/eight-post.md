@@ -1,5 +1,5 @@
 +++
-title = "Test"
+title = "Test 2024"
 date = "2024-08-18T21:03:00.000Z"
 +++
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
