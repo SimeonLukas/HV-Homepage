@@ -1,7 +1,7 @@
 # The URL the site will be built for
 base_url = "https://hist.staneks.de"
 theme = "wl"
-generate_rss = true
+feed_filenames = ["rss.xml"]
 title = "Historischer Verein Oberammergau"
 description = "Die Website des Historischen Vereins Oberammergau. Wir freuen uns auf Sie!"
 compile_sass = false
