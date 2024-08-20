@@ -19,9 +19,9 @@ taxonomies = [
 highlight_code = true
 
 [extra]
-author = "Dave"
+author = "Simeon"
 wanderlust_menu = [
-    {url = "$BASE_URL", name = "Startseite"},
+    {url = "$BASE_URL/", name = "Startseite"},
     {url = "$BASE_URL/about", name = "Über uns"},
     {url = "$BASE_URL/contact", name = "Kontakt"}
 ]
