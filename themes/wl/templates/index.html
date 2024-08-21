@@ -1,7 +1,7 @@
 {% extends "base.html" %}
 
 {% block header %}
-<!-- Page Header -->
+<!-- Page Header  Template für die Startseite-->
 
 <style>
 
@@ -66,12 +66,14 @@
       </div>
     <div>
       <hr>
+      <div class="postlist">
       {% for page in paginator.pages %}
       <div class="post-preview">
         {{ post_macros::page_title(page=page) }}
         <p class="post-summary">{{ page.summary | safe }}</p>
       </div>
       {% endfor %}
+      </div>
     </div>
   </div>
 </div>

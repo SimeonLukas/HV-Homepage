@@ -662,8 +662,8 @@
     max-width: 110.0rem;
     padding: 0 2.0rem;
     position: relative;
-    border: 20px solid #fff;
-    border-bottom: 35px solid #fff;
+    border: 5px solid #fff;
+    border-bottom: 15px solid #fff;
     box-shadow: 3px 3px 10px #000;
     margin-top: -100px;
     margin-bottom: 20px;

@@ -7,11 +7,6 @@
   <div >
     <div >
       <div >
-        <div class="post-heading">
-          {{ post_macros::page_header(page=page) }}
-   
-        </div>
-
       </div>
     </div>
   </div>
@@ -24,6 +19,10 @@
   <div class="container">
     <div >
       <div >
+        <div class="page-heading">
+          {{ post_macros::page_header(page=page) }}
+        </div>
+        <hr>
         {{ page.content | safe }}
         {% if page.taxonomies.tags %}
         <div class="post-tags">

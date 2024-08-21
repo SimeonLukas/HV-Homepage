@@ -2,8 +2,28 @@
 
 {% block title %}{{ config.title }} - Categories{% endblock %}
 
+{% block header %}
+<!-- Page Header Template für Einzelseiten-->
+<header class="masthead" style="background-image: url('{{ get_url(path="/img/home-bg.jpg")}}')">
+    <div class="overlay">
+    </div>
+    <div class="container">
+      <div >
+        <div >
+        </div>
+      </div>
+    </div>
+  </header>
+{% endblock header %}
+
 {% block content %}
+
 <div class="container">
+    <div class="page-heading">
+        <h1>Kategorien</h1>
+      </div>
+      <span class="subheading">Hier finden Sie alle Kategorien.</span>
+      <hr>
     <div class="row">
         <div class="col-lg-8 col-md-10 mx-auto">
             <ul>

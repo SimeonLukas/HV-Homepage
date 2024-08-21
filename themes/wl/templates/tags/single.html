@@ -1,3 +1,23 @@
 {% extends "base.html" %}
 
 {% block title %}{{ config.title }} - Articles in the {{ term.name }} tag{% endblock %}
+{% block header %}
+<!-- Page Header Template für Einzelseiten-->
+<header class="masthead" style="background-image: url('{{ get_url(path="/img/home-bg.jpg")}}')">
+    <div class="overlay">
+    </div>
+    <div class="container">
+      <div >
+        <div >
+        </div>
+      </div>
+    </div>
+  </header>
+  <div class="container">
+  <div class="page-heading">
+    <h1>{{ term.name }}</h1>
+  </div>
+  <span class="subheading">Hier finden Sie alle Artikel mit dem Schlagwort #{{ term.name }}.</span>
+  </div>
+  <hr>
+{% endblock header %}
