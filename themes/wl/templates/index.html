@@ -7,11 +7,12 @@
 
   #parallax {
       width: 100vw;
-      height: 1040px;
+      height: 1400px;
       position: absolute;
       top: 0;
       left: 0;
       overflow: hidden;
+      z-index: -1;
 
   }
   #parallax img {
@@ -23,6 +24,11 @@
       transition: 0.3s ease-out;
       object-fit: cover;
       object-position: 70% top;
+  }
+
+  @media screen and (max-width: 600px) {
+   #parallax { height: 1040px;}
+
   }
 
 </style>
@@ -48,6 +54,7 @@
       <span class="section-subheading">auf der Homepage des historischen Vereins Oberammergau</span>
       </div>
     <div>
+      <hr>
       {% for page in paginator.pages %}
       <div class="post-preview">
         {{ post_macros::page_title(page=page) }}

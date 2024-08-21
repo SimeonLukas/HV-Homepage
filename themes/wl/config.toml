@@ -3,6 +3,7 @@ base_url = "https://zola-clean-blog.netlify.app"
 generate_rss = true
 compile_sass = true
 
+
 title = "Start Bootstrap"
 description = "A blog theme by Start Bootstrap"
 highlight_code = true

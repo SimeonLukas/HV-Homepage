@@ -6,6 +6,8 @@ title = "Historischer Verein Oberammergau"
 description = "Die Website des Historischen Vereins Oberammergau. Wir freuen uns auf Sie!"
 compile_sass = false
 build_search_index = true
+generate_feeds = true
+default_language = "de"
 
 
 taxonomies = [

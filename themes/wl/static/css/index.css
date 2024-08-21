@@ -689,7 +689,7 @@ li {
 
 
 .navbar{
-  position: fixed;
+  position: sticky;
   top: 0;
   right: 0;
   width: 100%;
@@ -727,6 +727,9 @@ li {
   width: fit-content;
 }
 
+footer .container ul{
+  display: flex;
+}
 
 /* Animations */
 
