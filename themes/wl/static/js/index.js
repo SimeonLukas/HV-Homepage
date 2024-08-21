@@ -2,8 +2,10 @@ function toggleMenu() {
     var x = document.getElementById("navbarResponsive");
     if (x.style.display === "block") {
         x.style.display = "none";
+        document.getElementById("menu-button").classList.toggle("bx-x");
     } else {
         x.style.display = "block";
+        document.getElementById("menu-button").classList.toggle("bx-x");
     }
 }
 
