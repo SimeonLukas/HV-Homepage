@@ -13,7 +13,8 @@
       left: 0;
       overflow: hidden;
       z-index: 2;
-      pointer-events: none
+      pointer-events: none;
+      animation: fadein 1s;
 
   }
   #parallax img {
@@ -27,8 +28,17 @@
       object-position: 70% top;
   }
 
+  #block-container {
+    margin-top: 1040px;
+  }
+
+
   @media screen and (max-width: 600px) {
    #parallax { height: 1040px;}
+
+    #block-container {
+      margin-top: 800px;
+    }
 
   }
 
@@ -36,11 +46,11 @@
 
 
 <div id="parallax">
-  <img src="/images/parallax/l4.png">
-  <img src="/images/parallax/l5.png">
-  <img src="/images/parallax/l3.png">
-  <img src="/images/parallax/l2.png">
-  <img src="/images/parallax/l1.png" style="filter: drop-shadow(0px 10px 5px #000000cc);">
+  <img loading="lazy" src="/images/parallax/l4.png">
+  <img  src="/images/parallax/l5.png">
+  <img loading="lazy" src="/images/parallax/l3.png">
+  <img loading="lazy" src="/images/parallax/l2.png">
+  <img loading="lazy" src="/images/parallax/l1.png" style="filter: drop-shadow(0px 10px 5px #000000cc);">
 </div>
 <header class="head" >
 </header>
@@ -48,7 +58,7 @@
 
 {% block content %}
 <!-- Main Content -->
-<div class="container" style="margin-top: 100vh;">
+<div id="block-container" class="container" >
   <div>
     <div >
       <h1 class="section-heading">Willkommen</h1>
