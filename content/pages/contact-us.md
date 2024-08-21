@@ -5,6 +5,6 @@ path = "kontakt"
 template = "extra.html"
 
 [extra]
-image = "images/uploads/bilder-histor.-verein-teil-30012-large.jpg"
+image = "/images/uploads/bilder-histor.-verein-teil-30012-large.jpg"
 +++
 test
