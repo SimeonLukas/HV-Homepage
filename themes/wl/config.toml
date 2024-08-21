@@ -17,8 +17,8 @@ taxonomies = [
 author = "Dave"
 clean_blog_menu = [
     {url = "$BASE_URL", name = "Home"},
-    {url = "$BASE_URL/about", name = "About"},
-    {url = "$BASE_URL/contact", name = "Contact"}
+    {url = "$BASE_URL/ueber-uns", name = "Über uns"},
+    {url = "$BASE_URL/kontakt", name = "Kontakt"}
 ]
 clean_blog_social = [
     {url = "https://twitter.com", icon="fab fa-twitter"},

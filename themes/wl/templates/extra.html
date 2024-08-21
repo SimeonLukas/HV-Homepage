@@ -2,14 +2,10 @@
 
 {% block header %}
 <!-- Page Header -->
-<header class="masthead" style="background-image: url('{{ get_url(path="/img/about-bg.jpg")}}')">
+<header class="masthead" style="background-image: url('{{page.extra.image}}")')">
   <div class="container">
     <div>
       <div >
-        <div class="page-heading">
-          <h1>{{ page.title }}</h1>
-          <span class="subheading">{{ page.description }}</span>
-        </div>
       </div>
     </div>
   </div>
@@ -18,12 +14,17 @@
 
 {% block content %}
 <!-- Main Content -->
+
 <div class="container">
   <div>
     <div>
+      <div class="page-heading">
+        <h1>{{ page.title }}</h1>
+      </div>
+      <span class="subheading">{{ page.description }}</span>
+      <hr>
       {{ page.content | safe }}
     </div>
   </div>
 </div>
-
 {% endblock content %}
