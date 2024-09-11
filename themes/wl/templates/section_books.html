@@ -3,12 +3,8 @@
 
 {% block header %}
 <!-- Page Header Template für Einzelseiten-->
-<header class="masthead" >
-  <div class="container">
-    <div>
-      <div >
-      </div>
-    </div>
+<header class="masthead" style="background-image: url('{{ get_url(path="/img/home-bg.jpg")}}')">
+  <div class="overlay">
   </div>
 </header>
 {% endblock header %}
@@ -40,6 +36,7 @@
     {% for page in pages %}
     <article class="book-preview">
     <h1>{{ page.title }}</h1>
+    <p>{{ page.content | safe }}</p>
 
 
     </article>

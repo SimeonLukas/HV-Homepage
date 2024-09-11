@@ -1,11 +1,15 @@
 function toggleMenu() {
     var x = document.getElementById("navbarResponsive");
-    if (x.style.display === "block") {
+    if (x.style.display === "flex") {
         x.style.display = "none";
         document.getElementById("menu-button").classList.toggle("bx-x");
+        document.getElementById("navbar-toggler").style.backgroundColor = "#009bdd";
+        document.getElementById("navbar-toggler").style.color = "#fff";
     } else {
-        x.style.display = "block";
+        x.style.display = "flex";
         document.getElementById("menu-button").classList.toggle("bx-x");
+        document.getElementById("navbar-toggler").style.backgroundColor = "#ff009d55";
+        document.getElementById("navbar-toggler").style.color = "#000";
     }
 }
 

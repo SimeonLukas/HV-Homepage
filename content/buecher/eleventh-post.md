@@ -1,6 +1,6 @@
 +++
 title = "Eleventh post"
-date = 2019-01-11
+date = "2019-01-11"
 
 [taxonomies]
 categories = ["Newsletter"]

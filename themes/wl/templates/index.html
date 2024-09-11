@@ -14,7 +14,7 @@
       overflow: hidden;
       z-index: 2;
       pointer-events: none;
-      animation: fadein 1s;
+      animation: parallaxfadein 1s;
 
   }
   #parallax img {
@@ -57,12 +57,12 @@
 
 
 <div id="parallax">
-  <img loading="lazy" src="/images/parallax/l4.png">
+  <!-- <img loading="lazy" src="/images/parallax/l4.png"> -->
   <img  src="/images/parallax/l5.png">
   <img loading="lazy" src="/images/parallax/l3.png">
-  <img loading="lazy" src="/images/parallax/l2.png">
+  <img loading="lazy" src="/images/parallax/l2.png" style="margin: -10px;">
   <h1>{{ config.title }}</h1>
-  <img loading="lazy" src="/images/parallax/l1.png" style="filter: drop-shadow(0px 10px 5px #000000cc); margin-top: -5px;">
+  <img loading="lazy" src="/images/parallax/l1.png" style="filter: drop-shadow(0px 10px 5px #000000cc); margin-top: -20px;">
 </div>
 <header class="head" >
 </header>
