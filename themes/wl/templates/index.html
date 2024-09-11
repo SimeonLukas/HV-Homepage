@@ -13,7 +13,6 @@
       left: 0;
       overflow: hidden;
       z-index: 2;
-      pointer-events: none;
       animation: parallaxfadein 1s;
 
   }
@@ -41,7 +40,14 @@
     text-align: right;
     padding: 5px;
     width: 37%;
+    transition: 0.3s ease-out;
   }
+
+
+#parallax h1:hover {
+transform: scale(1.1);
+}
+
 
 
   @media screen and (max-width: 600px) {
@@ -58,11 +64,11 @@
 
 <div id="parallax">
   <!-- <img loading="lazy" src="/images/parallax/l4.png"> -->
-  <img  src="/images/parallax/l5.png">
-  <img loading="lazy" src="/images/parallax/l3.png">
-  <img loading="lazy" src="/images/parallax/l2.png" style="margin: -10px;">
+  <img  src="/images/parallax/l5.png" style="pointer-events: none;">
+  <img loading="lazy" src="/images/parallax/l3.png" style="pointer-events: none;">
+  <img loading="lazy" src="/images/parallax/l2.png" style="margin-top: -10px; pointer-events: none;">
   <h1>{{ config.title }}</h1>
-  <img loading="lazy" src="/images/parallax/l1.png" style="filter: drop-shadow(0px 10px 5px #000000cc); margin-top: -20px;">
+  <img loading="lazy" src="/images/parallax/l1.png" style="filter: drop-shadow(0px 10px 5px #000000cc); margin-top: -20px;  pointer-events: none;">
 </div>
 <header class="head" >
 </header>

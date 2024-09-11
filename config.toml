@@ -24,7 +24,7 @@ highlight_code = true
 author = "Simeon"
 wanderlust_menu = [
     {url = "$BASE_URL/", name = "Startseite"},
-    {url = "$BASE_URL/buecher", name = "Bücher"},
+    {url = "$BASE_URL/publikationen", name = "Publikationen"},
     {url = "$BASE_URL/ueber-uns", name = "Über uns"},
     {url = "$BASE_URL/kontakt", name = "Kontakt"}
 ]
