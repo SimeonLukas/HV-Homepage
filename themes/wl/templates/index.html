@@ -83,13 +83,15 @@ transform: scale(1.1);
       <span class="section-subheading">auf der Homepage des historischen Vereins Oberammergau</span>
       <hr>
       <div id="runner">
-        {% for i in range(start=1,end=6) %}
-        <img class="runner oldphoto" style="transform: rotate({{ get_random(start=-5,end=5) }}deg);" src="/images/runner/runner{{ i }}.jpg">
+        {% for i in range(start=1,end=49) %}
+        <img class="runner oldphoto" loading="lazy" style="transform: rotate({{ get_random(start=-5,end=5) }}deg);" src="/images/runner/runner{{ i }}.jpg">
           {% endfor %}
       </div>
       </div>
     </div>
       <hr>
+      <h1 class="section-heading">Jüngste Beiträge</h1>
+      <br>
       <div class="postlist">
       {% for page in paginator.pages %}
       <div class="post-preview">
