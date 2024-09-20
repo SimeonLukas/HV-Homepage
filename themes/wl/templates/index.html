@@ -99,7 +99,8 @@ transform: scale(1.1);
       <h1 class="section-heading">Jüngste Beiträge</h1>
       <br>
       <div class="postlist">
-      {% for page in paginator.pages %}
+      {% set section = get_section(path="blog/_index.md") %}
+      {% for page in section.pages %}
       <div class="post-preview">
         {{ post_macros::page_title(page=page) }}
         <p class="post-summary">{{ page.summary | safe }}</p>
