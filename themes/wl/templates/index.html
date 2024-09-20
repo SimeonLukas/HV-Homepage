@@ -82,9 +82,15 @@ transform: scale(1.1);
       <h1 class="section-heading">Willkommen</h1>
       <span class="section-subheading">auf der Homepage des historischen Vereins Oberammergau</span>
       <hr>
+      <h1 class="section-heading">Altes Oberammergau</h1>
+      <span class="section-subheading">Impressionen aus der Vergangenheit</span>
+      <br>
+      <br>
       <div id="runner">
         {% for i in range(start=1,end=49) %}
+        <a href="/images/runner/runner{{ i }}.jpg" class="glightbox">
         <img class="runner oldphoto" loading="lazy" style="transform: rotate({{ get_random(start=-5,end=5) }}deg);" src="/images/runner/runner{{ i }}.jpg">
+        </a>
           {% endfor %}
       </div>
       </div>

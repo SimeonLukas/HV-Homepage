@@ -1,9 +1,8 @@
-
 {% extends "base.html" %}
 
 {% block header %}
 <!-- Page Header Template für Einzelseiten-->
-<header class="masthead" style="background-image: url('{{ get_url(path="/img/home-bg.jpg")}}')">
+<header class="masthead" style="background-image: url('{{ get_url(path="/img/publikationen-bg.jpg")}}')">
   <div class="overlay">
   </div>
 </header>
@@ -35,12 +34,58 @@
 
     {% for page in pages %}
     <article class="book-preview">
-    <h1>{{ page.title }}</h1>
-    <p>{{ page.content | safe }}</p>
+      <div class="book-preview-data">
+      <b><span class="book-title">{{ page.title }}</span></b>
+      <!-- if page.extra.author -->
+      {% if page.extra.author %}
+      <br>
+      <span><i class="bx bx-user"></i> {{ page.extra.author}}</span>
+      {% endif %}
+      {% if page.extra.year %}
+      <br>
+      <span><i class="bx bx-calendar"></i> Veröffentlicht: {{ page.extra.year}}</span>
+      {% endif %}
+      <!-- isbn -->
+      {% if page.extra.isbn %}
+      <br>
+      <span><i class="bx bx-book"></i> ISBN: {{ page.extra.isbn}}</span>
+      {% endif %}
+      <!-- stock -->
+      {% if page.extra.stock %}
+      <br>
+      <span><i class="bx bx-check-circle"></i> 1x auf Lager</span>
+      {% else %}
+      <br>
+      <span class="text-danger"><i class="bx bx-x-circle"></i> Nicht verfügbar</span>
+      {% endif %}
 
+      <!-- Band -->
+      {% if page.extra.band %}
+      <br>
+      <span><i class="bx bx-collection"></i> Band {{ page.extra.band}}</span>
+      {% endif %}
+
+      <!-- series -->
+      {% if page.extra.series %}
+      <span>aus: {{ page.extra.series}}</span>
+      {% endif %}
+
+      <br>
+      <br>
+      <button><i class="bx bx-plus"></i> Merken</button>
+      <br>
+      <button class=""><i class="bx bx-book-open"></i> Lesen</button>
+
+
+      </div>
+      <div class="book-preview-image">
+        {% if page.extra.image %}
+        <img src="{{ page.extra.image }}" alt="{{ page.title }}">
+        {% endif %}
+      </div>
 
     </article>
     {% endfor %}
-    </div>
+  </div>
 </div>
 {% endblock content %}

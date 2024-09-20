@@ -8,10 +8,11 @@
 
 
 :root {
-  --color-primary: #009bdd;
-  --color-secondary: #ff009d55;
-  --color-tertiary: #009bddcc;
-  --color-quaternary: #00d1b2;
+  --color-primary: rgb(0, 155, 221);
+  --color-secondary: rgba(255, 0, 157, 0.333);
+  --color-tertiary: rgba(0, 155, 221, 0.8);
+  --color-quaternary: rgba(222, 212, 0, 0.1);
+  --color-quinary: rgb(222, 0, 36);
 }
 
 *,
@@ -681,6 +682,7 @@ img {
   transform: rotate(-5deg) translate(0px, 100px);
   transition: 0.3s ease-out;
   background-position: center;
+  background-size: cover;
 
 }
 
@@ -823,6 +825,7 @@ footer {
   scroll-snap-type: x mandatory;
   box-shadow: inset 5px  5px 10px rgba(0, 0, 0, 0.5);
   border-radius: 5px;
+  background-color: var(--color-quaternary);
 }
 
 #runner::-webkit-scrollbar {
@@ -830,11 +833,10 @@ footer {
 }
 
 #runner img {
-  width: 100%;
-  max-width: 800px;
-  height: auto;
-  max-height: 500px;
+  min-width: 500px;
+  height: 300px;
   object-fit: cover;
+  object-position: top;
   margin: 5rem;
   border: #fff 20px solid;
   transition: 0.3s ease-out;
@@ -843,6 +845,32 @@ footer {
   scroll-snap-stop: always;
 }
 
+
+
+/* books */
+
+article.book-preview {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: space-evenly;
+  justify-content: space-between;
+}
+
+/* post content */
+.post-content .image-container{
+float: left;
+margin: 10px;
+border-radius: 5px;
+}
+
+.image-caption{
+  text-align: center;
+  font-size: 1rem;
+  font-style: italic;
+  color: #000;
+  display: block
+}
 /* Scrollbar */
 
 ::-webkit-scrollbar {

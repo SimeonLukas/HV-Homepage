@@ -4,12 +4,6 @@
 <!-- Page Header -->
  
 {{ post_macros::page_thumbnail(page=page) }}
-  <div >
-    <div >
-      <div >
-      </div>
-    </div>
-  </div>
 </header>
 {% endblock header %}
 
@@ -19,16 +13,30 @@
   <div class="container">
     <div >
       <div >
-        <div class="page-heading">
+        <div class="page-heading" >
           {{ post_macros::page_header(page=page) }}
         </div>
         <hr>
-        {{ page.content | safe }}
+        <div class="post-content" >
+    
+          
+    
+        {% if page.extra.image %}
+          <div class="image-container">
+          <img src="{{ page.extra.image }}" alt="{{ page.description }}">
+          <br><span class="image-caption">{{ page.description }}</span>
+        </div>
+          
+          {{ page.content | safe}}
+        </div>
+        {% endif %}
+
+
         {% if page.taxonomies.tags %}
         <div class="post-tags">
-          <p>Tags:
+          <p>
             {% for tag in page.taxonomies.tags %}
-            <a href="{{ get_taxonomy_url(kind="tags", name=tag) }}">#{{ tag }}</a>
+            <a href="{{ get_taxonomy_url(kind="tags", name=tag) }}"><i class="bx bx-tag"></i> {{ tag }}</a>
             {% endfor %}
           </p>
         </div>
