@@ -23,7 +23,9 @@
     
         {% if page.extra.image %}
           <div class="image-container">
+            <a href="{{ page.extra.image }}" class="glightbox">
           <img src="{{ page.extra.image }}" alt="{{ page.description }}">
+          </a>
           <br><span class="image-caption">{{ page.description }}</span>
         </div>
           
