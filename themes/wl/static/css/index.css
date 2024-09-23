@@ -720,6 +720,9 @@ ul.navbar-nav.ml-auto {
 
 .search-results{
   animation: fadein 0.5s;
+}
+
+.search-results__items {
   text-align: left;
 }
 
