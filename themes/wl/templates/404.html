@@ -1,0 +1,37 @@
+{% extends "base.html" %}
+
+{% block header %}
+<!-- Page Header -->
+ 
+
+</header>
+{% endblock header %}
+
+{% block content %}
+<!-- Post Content -->
+<article>
+  <div class="container">
+    <div >
+      <div >
+        <div class="page-heading" >
+          <h1>HTTP 404</h1>
+        </div>
+        <span class="subheading">Die gesuchte Seite wurde leider nicht gefunden.</span>
+        <br>
+        <span class="subheading">Vielleicht interessieren Sie sich auch für folgende Beiträge.</span>
+        <hr>
+        <div class="postlist">
+          {% set section = get_section(path="blog/_index.md") %}
+          {% for page in section.pages %}
+          <div class="post-preview">
+            {{ post_macros::page_title(page=page) }}
+            <p class="post-summary">{{ page.content | truncate(length=300) | safe }} <a href="{{ page.permalink }}"
+                class="btn btn-primary">Weiterlesen</a></p>
+    
+          </div>
+          {% endfor %}
+      </div>
+    </div>
+  </div>
+</article>
+{% endblock content %}

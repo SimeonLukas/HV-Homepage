@@ -706,10 +706,21 @@ img {
   align-content: center;
   justify-content: center;
   align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: flex-start;
+  overflow: scroll;
 }
 
 ul.navbar-nav.ml-auto {
   margin: 0;
+}
+
+
+.search-results{
+  animation: fadein 0.5s;
+  text-align: left;
 }
 
 .logo {
@@ -750,8 +761,6 @@ li {
 }
 
 /* every next nav-item */
-
-
 
 
 .navbar .container {
@@ -846,6 +855,37 @@ footer {
 }
 
 
+.page-trigon{
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+.third{
+  display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: center;
+    align-content: flex-end;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s ease-out;
+  margin: 20px;
+}
+.third i{
+  font-size: 6rem;
+}
+.third span{
+  font-size: 3rem;
+}
+
+.third:hover{
+color: var(--color-primary);
+transform: scale(1.2);
+}
 
 /* books */
 
