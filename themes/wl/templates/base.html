@@ -40,6 +40,7 @@
           </li>
           {% endfor %}
           {% block search %}
+          <hr>
                     <input class="input" id="search" placeholder="SUCHE" type="search" />
           {% endblock %}
         </ul>
@@ -103,23 +104,34 @@
   <!-- Footer -->
   <footer>
     <div class="container">
-      <div>
-        <div>
-          <ul>
-            {% for item in config.extra.wanderlust_social %}
-            <li>
-              <a href="{{ item.url | replace(from="$BASE_URL", to=config.base_url) }}">
-                <span>
-                 <box-icon  {{ item.icon | safe }}  ></box-icon>
-                </span>
-              </a>
-            </li>
-            {% endfor %}
-          </ul>
-          <p class="copyright">{% block copyright %}&copy; Simeon Stanek
-            {{ now() | date(format="%Y") }}{% endblock copyright %}</p>
+      <div class="footer-links-1">
+        <span class="footer-link-label" ><i class="bx bx-info-circle"></i> Hinweise</span><br>
+        <i class="bx bx-file"></i> <a href="{{ config.base_url }}/datenschutz" class="footer-link">Datenschutz</a><br>
+        <i class="bx bx-file"></i> <a href="{{ config.base_url }}/impressum" class="footer-link">Impressum</a><br>
+        <i class="bx bx-map"></i> <a href="{{ config.base_url }}/sitemap.xml" class="footer-link">Sitemap</a><br>
+        <!-- RSS -->
+        <i class="bx bx-rss"></i> <a href="{{ config.base_url }}/rss.xml" class="footer-link">RSS</a><br>
+        &copy; <a href="https://staneks.de" class="footer-link" >{% block copyright %} Simeon Stanek
+          {{ now() | date(format="%Y") }}{% endblock copyright %}</a>
         </div>
-      </div>
+        <div class ="footer-links-2">
+          <span class="footer-link-label"><i class="bx bx-book"></i> Seiten</span><br>
+          <i class="bx bx-chevron-right"></i> <a href="{{ config.base_url }}/blog" class="footer-link">Beiträge</a><br>
+          <i class="bx bx-chevron-right"></i> <a href="{{ config.base_url }}/mitgliedschaft" class="footer-link">Mitgliedschaft</a><br>
+          <i class="bx bx-chevron-right"></i> <a href="{{ config.base_url }}/publikationen" class="footer-link">Publikationen</a><br>
+          {% set section = get_section(path="pages/_index.md") %}
+          {% for page in section.pages %}
+          <i class="bx bx-chevron-right"></i> <a href="{{ page.permalink }}" class="footer-link">{{ page.title }}</a><br>
+          {% endfor %}
+        </div>
+        <div class ="footer-links-3">
+          <span class="footer-link-label" ><i class="bx bx-news"></i> Beiträge</span><br>
+          {% set section = get_section(path="blog/_index.md") %}
+          {% for page in section.pages %}
+          <i class="bx bx-chevron-right"></i> <a href="{{ page.permalink }}" class="footer-link">{{ page.title | truncate(length=20)}}</a><br>
+          {% endfor %}
+        </div>
+
     </div>
   </footer>
 

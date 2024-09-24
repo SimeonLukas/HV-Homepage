@@ -810,6 +810,26 @@ footer {
   border-top: #000000 3px dashed;
 }
 
+
+.footer-link{
+  color: #fff;
+}
+
+.footer-link-label{
+color: #000;
+}
+
+
+footer .container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  align-content: center;
+  margin: 0 auto;
+}
+
 .page-heading {
   color: #fff;
   text-align: center;
@@ -933,6 +953,11 @@ border-radius: 5px;
 }
 
 
+/* icons */
+i {
+  animation: swing 1s !important;
+}
+
 /* Animations */
 
 @keyframes fadein {
@@ -944,6 +969,8 @@ border-radius: 5px;
     opacity: 1;
   }
 }
+
+
 
 @keyframes swing {
   0% {
