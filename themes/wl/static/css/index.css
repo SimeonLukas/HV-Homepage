@@ -46,6 +46,7 @@ body {
   overflow-x: hidden;
   min-height: 100vh;
   background-color: #fff;
+  scroll-behavior: smooth;
 }
 
 blockquote {
@@ -861,7 +862,11 @@ footer .container{
 }
 
 #runner::-webkit-scrollbar {
-  display: none;
+  display: block;
+  height: 20px;
+  border-radius: 15px;
+  scroll-snap-type: x mandatory;
+  scroll-snap-stop: always;
 }
 
 #runner img {
@@ -934,6 +939,24 @@ border-radius: 5px;
   color: #000;
   display: block
 }
+
+/* Scroll down Button */
+
+button#scroll-down {
+  position: absolute;
+  z-index: 999;
+  right: 10%;
+  bottom: 10%;
+  width: 65px;
+  height: 65px;
+  text-align: center;
+  border-radius: 100%;
+  font-size: 25px;
+  line-height: 25px;
+  padding: 0px;
+  cursor: pointer;
+}
+
 /* Scrollbar */
 
 ::-webkit-scrollbar {
@@ -954,9 +977,9 @@ border-radius: 5px;
 
 
 /* icons */
-i {
+/* i {
   animation: swing 1s !important;
-}
+} */
 
 /* Animations */
 
@@ -973,40 +996,13 @@ i {
 
 
 @keyframes swing {
+/* Fade up */
   0% {
-    transform: rotate(0deg);
-  }
-
-  10% {
-    transform: rotate(10deg);
-  }
-
-  30% {
-    transform: rotate(0deg);
-  }
-
-  40% {
-    transform: rotate(-10deg);
-  }
-
-  50% {
-    transform: rotate(0deg);
-  }
-
-  60% {
-    transform: rotate(5deg);
-  }
-
-  70% {
-    transform: rotate(0deg);
-  }
-
-  80% {
-    transform: rotate(-5deg);
+    transform: translateY(100px);
   }
 
   100% {
-    transform: rotate(0deg);
+    transform: translateY(0px);
   }
 }
 

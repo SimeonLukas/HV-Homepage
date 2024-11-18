@@ -23,3 +23,12 @@ function parallax() {
     }
 }
 window.addEventListener("scroll", parallax);
+
+
+function scrollDown() {
+    // smooth scroll on page
+    window.scrollTo({
+        top: document.getElementById("block-container").offsetHeight - 100,
+        behavior: "smooth"
+    });
+}

@@ -73,6 +73,7 @@
   <h1>{{ config.title }}</h1>
   <img class="parrallax-img" loading="lazy" src="/images/parallax/l1.png" style="filter: drop-shadow(0px 10px 5px #000000cc); margin-top: -20px;">
 </div>
+<button id="scroll-down" class="btn" onclick="scrollDown()"><i class='bx bx-down-arrow'></i></button>
 <header class="head">
 </header>
 {% endblock header %}
@@ -84,16 +85,16 @@
     <div>
       <hr>
       <div class="page-trigon">
-        <div class="third bx-tada-hover" onclick="location.href='/mitgliedschaft' ">
-          <i class='bx bxs-user-account bx-tada-hover bx-border-circle' ></i><br>
+        <div class="third" onclick="location.href='/mitgliedschaft' ">
+          <i class='bx bxs-user-account bx-border-circle' ></i><br>
           <span>Mitgliedschaft</span>
         </div>
-        <div class="third bx-tada-hover" onclick="location.href='/publikationen' ">
-          <i class='bx bxs-book bx-tada-hover bx-border-circle' ></i><br>
+        <div class="third " onclick="location.href='/publikationen' ">
+          <i class='bx bxs-book bx-border-circle' ></i><br>
           <span>Publikationen</span>
         </div>
-        <div class="third bx-tada-hover" onclick="location.href='/blog' ">
-          <i class='bx bx-news bx-tada-hover bx-border-circle' ></i><br>
+        <div class="third " onclick="location.href='/blog' ">
+          <i class='bx bx-news bx-border-circle' ></i><br>
           <span >Beiträge</span>
         </div>
       </div>
