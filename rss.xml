@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+      <title>Historischer Verein Oberammergau</title>
+      <link>https://hist.staneks.de</link>
+      <description>Die Website des Historischen Vereins Oberammergau. Wir freuen uns auf Sie!</description>
+      <generator>Zola</generator>
+      <language>de</language>
+      <atom:link href="https://hist.staneks.de/rss.xml" rel="self" type="application/rss+xml"/>
+      <lastBuildDate>Fri, 11 Jan 2019 00:00:00 +0000</lastBuildDate>
+      <item>
+          <title>Aufgaben des Vereins</title>
+          <pubDate>Fri, 11 Jan 2019 00:00:00 +0000</pubDate>
+          <author>Unknown</author>
+          <link>https://hist.staneks.de/aufgaben-des-vereins/</link>
+          <guid>https://hist.staneks.de/aufgaben-des-vereins/</guid>
+          <description xml:base="https://hist.staneks.de/aufgaben-des-vereins/">&lt;p&gt;Außerdem setzt sich der Verein für die Vermittlung von Geschichtswissen regionaler und allgemeiner Ausprägung ein, wobei er um die Förderung der Heimatkunde und Heimatpflege bemüht ist. Im Zuge der Erfassung und Dokumentation der Ortsgeschichte wird eine Zusammenarbeit mit den ansässigen Vereinen und den Geschichtsvereinen der Region angestrebt. Zur Erreichung dieser Ziele wird dem Kontakt zu den Geschichtswissenschaften Bedeutung beigemessen. Dem Vereinszweck dient eine Publikation, in der vereinsinterne oder den Ort Oberammergau betreffende Forschungsarbeiten und Mitteilungen veröffentlicht werden können. Vorträge, Exkursionen, regelmäßige Treffen sowie Veröffentlichungen in der Presse sind ebenfalls Zweck des Vereins.&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;uber-uns&quot;&gt;&lt;a href=&quot;&#x2F;ueber-uns&quot;&gt;Über uns&lt;&#x2F;a&gt;&lt;&#x2F;h1&gt;
+</description>
+      </item>
+      <item>
+          <title>Oberammergau im Dritten Reich 1933 - 1945</title>
+          <pubDate>Fri, 11 Jan 2019 00:00:00 +0000</pubDate>
+          <author>Unknown</author>
+          <link>https://hist.staneks.de/publikationen/band1/</link>
+          <guid>https://hist.staneks.de/publikationen/band1/</guid>
+          <description xml:base="https://hist.staneks.de/publikationen/band1/"></description>
+      </item>
+      <item>
+          <title>Einmal Oberammergau und zurück Reisetagebuch des Bauern Matthäus Storath aus Stockheim&#x2F;Rhön</title>
+          <pubDate>Fri, 11 Jan 2019 00:00:00 +0000</pubDate>
+          <author>Unknown</author>
+          <link>https://hist.staneks.de/publikationen/band2/</link>
+          <guid>https://hist.staneks.de/publikationen/band2/</guid>
+          <description xml:base="https://hist.staneks.de/publikationen/band2/"></description>
+      </item>
+      <item>
+          <title>Als in Oberammergau der Krieg zu Ende war</title>
+          <pubDate>Fri, 29 Oct 2010 00:00:00 +0000</pubDate>
+          <author>Unknown</author>
+          <link>https://hist.staneks.de/blog/20101029/</link>
+          <guid>https://hist.staneks.de/blog/20101029/</guid>
+          <description xml:base="https://hist.staneks.de/blog/20101029/">&lt;p&gt;Es war der 29. April vor 65 Jahren. Dass der Zweite Weltkrieg bald zu Ende gehen würde spürten alle. Auch in Oberammergau. Manche rätselten noch, ob die Amis oder die Russen kommen würden. Aber die Mutter von Anton Norz wusste: „Die Amerikaner kommen.“ Sie hatte „schwarz“ einen „Feindsender“ abgehört. Tatsächlich waren die US-Panzerspitzen an diesem Sonntag von Schongau kommend schon an der Echelsbacher Brücke und um 11.15 Uhr am Oberammergauer Dorfeingang. Um 11.30 rollten die ersten Panzerspähwagen und anschließend schwere Panzer durch den Ort. So berichtete der Geistliche Rat Bogenrieder, Pfarrer von Oberammergau, an das erzbischöfliche Ordinariat Einen solchen Überblick über die Ereignisse dieses historischen Tages hatten die drei Zeitzeugen, die der Historische Verein zum Stammtisch ins Gasthaus Zum Stern eingeladen hatte, nicht. Helmut Eitzenberger, Albert Kratz und Anton Norz, alle Jahrgang 1931, waren damals erst 14 Jahre alt. Ein paar Fanatiker wollten das Dorf verteidigen, berichtete Norz. Andere hätten gesagt: „Lasst den Blödsinn sein.“ Dennoch wurde geschossen, unterhalb der Bärenhöhle. Das haben sie alle gehört. Und einen Flieger sahen sie über dem Ort kreisen. Panzer hatten die Jungen ja schon gekannt, aber die US-Jeeps seien für sie neu gewesen. „So ganz ohne Dach, komische Autos“, erzählte Eitzenberger. Besonders fasziniert hatten die jungen Leute die Waffen, die von den flüchtenden deutschen Soldaten weggeworfen worden waren. Kratz schilderte wie sie in Schützengräben Handgranaten gefunden und eine Panzerfaust auseinandergebaut hatten. Zwischen den Kaserne und den Messerschmitt-Stollen im Laber hätten sie in den Baracken Zündschnüre und Sprengkapseln gefunden, ergänzte Norz. Nur gut fünf Stunden dauerte die Befreiung Oberammergaus. Norz: „Um 17 Uhr war alles vorbei.“ Aber danach mussten viele Ammergauer ihre Wohnungen für die Besatzer räumen. Und die nahmen, wenn sie weiterzogen, so manches „Andenken“ an den Passionsort mit. Keine Schnitzwaren, sondern Schmuck und Uhren, die sie für wertvoller hielten. „Manche hatten die Arme voller Uhren“, erinnerten sich andere Zeitzeugen unter den Besuchern.&lt;&#x2F;p&gt;
+</description>
+      </item>
+    </channel>
+</rss>
