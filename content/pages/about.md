@@ -6,9 +6,20 @@ template = "extra.html"
 
 
 [extra]
-image = "/images/uploads/bilder-histor.-verein-teil-30012-large.jpg"
+image = "/images/uploads/vorstand.jpg"
 +++
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+![width="300" height="300" src="/images/uploads/bilder-histor.-verein-teil-30012-large.jpg"](/images/uploads/vorstand.jpg "Historischer Verein Oberammergau")
+
+|1. Vorsitzender|2. Vorsitzender|
+|:---:|:---:|
+|Ludwig Utschneider M.A. <br> Hillernstraße<br> D-82487 Oberammergau <br> Tel. 0 88 22 / 92 27 90 <br> E-Mail: ludwig.utschneider@t-online.de|Franz Kümmerle <br>Leupoldstraße 6<br>82487 Oberammergau<br>Tel. 0 88 22 / 45 95<br> E-Mail: info@historischer-verein.de|
+
+|Kassier| Schriftfürer|
+|:---:|:---:|
+|Dr. Dieter Rödel <br>Ahornstraße 11 <br>  82377 Penzberg <br> Tel. 0 88 56 / 59 90 <br> E-Mail: dr.roedel@t-online.de|Martin Kleiner<br>Kolbengasse 9<br>82487 Oberammergau<br>kleiner@bn-gap.de
+
+|Beisitzer|
+|:---:|
+|Maria Blaschke  <br>Simone Späth <br>Elisabeth Kemper|

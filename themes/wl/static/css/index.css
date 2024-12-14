@@ -944,7 +944,7 @@ border-radius: 5px;
 
 button#scroll-down {
   position: absolute;
-  z-index: 999;
+  z-index: 98;
   right: 10%;
   bottom: 10%;
   width: 65px;
