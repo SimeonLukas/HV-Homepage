@@ -17,6 +17,7 @@ collections:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "Body", name: "body", widget: "markdown" }
+      - { label: "Bildbeschreibung", name: "description", widget: "string" }
       - label: "Schlagworte und Kategorien"
         name: "taxonomies"
         widget: "object"
@@ -38,6 +39,10 @@ collections:
           widget: "image"
           width: 400
           required: false
+        - label: "Veröffentlicht von"
+          name: "publisher"
+          widget: "string"
+          required: true
   - name: "publikationen" # Used in routes, e.g., /admin/collections/blog
     format: toml-frontmatter
     preview: false
