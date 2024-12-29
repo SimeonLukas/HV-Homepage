@@ -38,7 +38,7 @@ collections:
           widget: "image"
           width: 400
           required: false
-- name: "publikationen" # Used in routes, e.g., /admin/collections/blog
+  - name: "publikationen" # Used in routes, e.g., /admin/collections/blog
     format: toml-frontmatter
     preview: false
     label: "Publikationen" # Used in the UI
