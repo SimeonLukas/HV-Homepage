@@ -89,7 +89,7 @@ collections:
           required: true
         - label: "Lager"
           name: "stock"
-          widget: "number"
+          widget: "string"
           required: true
         - label: "Serie"
           name: "series"
@@ -101,10 +101,10 @@ collections:
           required: true
         - label: "Seiten"
           name: "pages"
-          widget: "number"
+          widget: "string"
           required: true
         - label: "Bilder"
           name: "images"
-          widget: "number"
+          widget: "string"
           required: true
         
