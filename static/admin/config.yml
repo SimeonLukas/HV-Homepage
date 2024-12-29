@@ -38,3 +38,73 @@ collections:
           widget: "image"
           width: 400
           required: false
+- name: "publikationen" # Used in routes, e.g., /admin/collections/blog
+    format: toml-frontmatter
+    preview: false
+    label: "Publikationen" # Used in the UI
+    folder: "/content/publikationen" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - { label: "Layout", name: "layout", widget: "hidden", default: "blog" }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - { label: "Body", name: "body", widget: "markdown" }
+      - label: "Schlagworte und Kategorien"
+        name: "taxonomies"
+        widget: "object"
+        fields: 
+        - label: "Kategorien"
+          name: "categories"
+          widget: "list"
+          default: ["Newsletter"]
+        - label: "Schlagworte"
+          name: "tags"
+          widget: "list"
+          default: ["Aktuell"]
+      - label: "Extra"
+        name: "extra"
+        widget: "object"
+        fields:
+        - label: "Cover"
+          name: "image"
+          widget: "image"
+          width: 400
+          required: true
+        - label: "Autor"
+          name: "author"
+          widget: "string"
+          required: true
+        - label: "Jahr"
+          name: "year"
+          widget: "string"
+          required: true
+        - label: "ISBN"
+          name: "isbn"
+          widget: "string"
+          required: true
+        - label: "Preis"
+          name: "price"
+          widget: "string"
+          required: true
+        - label: "Lager"
+          name: "stock"
+          widget: "number"
+          required: true
+        - label: "Serie"
+          name: "series"
+          widget: "string"
+          required: true
+        - label: "Band"
+          name: "band"
+          widget: "string"
+          required: true
+        - label: "Seiten"
+          name: "pages"
+          widget: "number"
+          required: true
+        - label: "Bilder"
+          name: "images"
+          widget: "number"
+          required: true
+        
