@@ -5,7 +5,7 @@ date = "2010-12-08T00:00:00.000Z"
 description = "Franz Kümmerle (hinten Mitte) stellt das Jahresprogramm des Historischen Vereins vor"
 
 [taxonomies]
-categories = ["Artikel"]
+categories = ["Archiv"]
 tags = ["Jahresprogramm"]
 
 [extra]
