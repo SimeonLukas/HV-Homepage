@@ -16,7 +16,13 @@
   <meta name="og:description" content="{{ config.description }}">
   <meta name="og:url" content="{{ config.base_url }}">
   <meta name="og:type" content="website">
+  {% if page.extra.image %}
+  <meta name="og:image" content="{{config.base_url}}{{ page.extra.image }}">
+  <meta name="og:logo" content="{{config.base_url}}{{ page.extra.image }}">
+  {% else %}
   <meta name="og:image" content="{{ get_url(path="img/home-bg.jpg") }}">
+  <meta name="og:logo" content="{{ get_url(path="img/home-bg.jpg") }}">
+  {% endif %}
   <link rel="alternate" type="application/rss+xml" title="RSS" href="{{ get_url(path="rss.xml", trailing_slash=false) }}">
   {% endblock %}
   <link rel="stylesheet" href="{{ get_url(path="css/index.css", trailing_slash=false) }}">
