@@ -1,7 +1,7 @@
 +++
 layout = "blog"
 title = "Eine leidvolle Zeit - Prof. Schelle spürte dem Leben vor 400 Jahren nach "
-date = "2011-02-17T17:00:00.000Z"
+date = "2011-02-18T13:00:00.000Z"
 description = "Prof. Dr. Heinz Schelle"
 
 [taxonomies]
