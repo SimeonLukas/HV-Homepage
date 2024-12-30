@@ -12,8 +12,16 @@
   <title>{% block title %}{{ config.title }}{% endblock title %}</title>
   {% block rss %}
   <meta name="og:site_name" content="{{ config.title }}">
+  {% if page.title %}
+  <meta name="og:title" content="{{ page.title }}">
+  {% else %}
   <meta name="og:title" content="{{ config.title }}">
-  <meta name="og:description" content="{{ config.description }}">
+  {% endif %}
+ {% if page.description %}
+  <meta name="description" content="{{ page.description }}">
+  {% else %}
+  <meta name="description" content="{{ config.description }}">
+  {% endif %}
   <meta name="og:url" content="{{ config.base_url }}">
   <meta name="og:type" content="website">
   {% if page.extra.image %}
