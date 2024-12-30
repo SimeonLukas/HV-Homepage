@@ -43,6 +43,14 @@ collections:
           name: "publisher"
           widget: "string"
           required: true
+        - label: "Download"
+          name: "download"
+          widget: "file"
+          required: false
+          media_library:
+            config:
+              multiple: true
+          
   - name: "publikationen" # Used in routes, e.g., /admin/collections/blog
     format: toml-frontmatter
     preview: false
