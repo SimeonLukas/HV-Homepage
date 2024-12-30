@@ -5,7 +5,7 @@ date = "2011-02-18T13:00:00.000Z"
 description = "Prof. Dr. Heinz Schelle"
 
 [taxonomies]
-categories = ["Vortrag"]
+categories = ["Archiv"]
 tags = ["Zeitzeugen"]
 
 [extra]
