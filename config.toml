@@ -31,6 +31,7 @@ wanderlust_menu = [
     {url = "$BASE_URL/publikationen", name = "Publikationen"},
     {url = "$BASE_URL/ueber-uns", name = "Über uns"},
     {url = "$BASE_URL/kontakt", name = "Kontakt"},
+    {url = "$BASE_URL/ortsgeschichte", name = "Ortsgeschichte"},
         {url = "$BASE_URL/aufgaben-des-vereins", name = "Aufgaben des Vereins"},
 ]
 wanderlust_social = [
