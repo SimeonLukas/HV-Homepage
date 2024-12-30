@@ -932,6 +932,7 @@ margin: 10px;
 border-radius: 5px;
 }
 
+
 .image-caption{
   text-align: center;
   font-size: 1rem;
@@ -955,6 +956,18 @@ button#scroll-down {
   line-height: 25px;
   padding: 0px;
   cursor: pointer;
+}
+
+
+/* Nextpages */
+.next-pages{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+  margin: 0 auto;
 }
 
 /* Scrollbar */

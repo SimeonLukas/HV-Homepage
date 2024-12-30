@@ -56,4 +56,18 @@
     </div>
   </div>
 </article>
+<div class="next-pages">
+  {% if page.lower %}
+<div class="next">
+  <a href="{{ page.lower.permalink }}"><i class="bx bx-left-arrow-alt"></i> {{ page.lower.title }} </a>
+</div>
+{% endif %}
+{% if page.higher%}
+
+<div class="previous">
+  <a href="{{ page.higher.permalink }}">{{ page.higher.title }} <i class="bx bx-right-arrow-alt"></i></a>
+</div>
+{% endif %}
+</div>
+
 {% endblock content %}
