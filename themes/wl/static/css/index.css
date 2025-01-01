@@ -650,11 +650,12 @@ h6 {
 
 img {
   max-width: 100%;
-  min-width: 450px
+  width: 450px
 }
 
 .booklist img {
-  min-width: unset;
+
+  width: unset;
 }
 
 .clearfix:after {
