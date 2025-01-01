@@ -653,6 +653,10 @@ img {
   min-width: 450px
 }
 
+.booklist img {
+  min-width: unset;
+}
+
 .clearfix:after {
   clear: both;
   content: ' ';

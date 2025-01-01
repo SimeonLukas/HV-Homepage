@@ -45,6 +45,14 @@
 
     </article>
     {% endfor %}
+<div class="next-pages">
+    {% if paginator.previous %}
+    <a href="{{ paginator.previous }}"><i class="bx bx-left-arrow-alt"></i> Zurück</a>
+    {% endif %}
+    {% if paginator.next %}
+    <a href="{{ paginator.next }}">Weiter <i class="bx bx-right-arrow-alt"></i></a>
+    {% endif %}
+</div>
     </div>
 </div>
 {% endblock content %}
