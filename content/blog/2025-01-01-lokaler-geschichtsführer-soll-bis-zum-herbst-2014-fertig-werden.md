@@ -5,8 +5,8 @@ date = "2013-11-26T00:00:00.000Z"
 description = "Karl Maria Härtle koordiniert die Arbeit am Geschichtsführer"
 
 [taxonomies]
-categories = ["Newsletter"]
-tags = ["Aktuell"]
+categories = ["Archiv"]
+tags = ["Geschichtsführer"]
 
 [extra]
 image = "/images/uploads/img_8087.jpg"
