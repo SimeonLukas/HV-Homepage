@@ -151,7 +151,7 @@
         <div class ="footer-links-3">
           <span class="footer-link-label" ><i class="bx bx-news"></i> Beiträge</span><br>
           {% set section = get_section(path="blog/_index.md") %}
-          {% for page in section.pages %}
+          {% for page in section.pages | slice (start=0, end=8)%}
           <i class="bx bx-chevron-right"></i> <a href="{{ page.permalink }}" class="footer-link">{{ page.title | truncate(length=20)}}</a><br>
           {% endfor %}
         </div>
