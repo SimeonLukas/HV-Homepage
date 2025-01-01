@@ -28,10 +28,11 @@
           </a>
           <br><span class="image-caption">{{ page.description }}</span>
         </div>
+        {% endif %}
           
           {{ page.content | safe}}
         </div>
-        {% endif %}
+   
 
         {% if page.extra.download %}
         {% for file in page.extra.download %}
