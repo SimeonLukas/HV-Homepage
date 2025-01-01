@@ -17,7 +17,7 @@ collections:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "Body", name: "body", widget: "markdown" }
-      - { label: "Bildbeschreibung", name: "description", widget: "string" }
+      - { label: "Bildbeschreibung", name: "description", widget: "string", default: "Keine Beschreibung angegeben" }
       - label: "Schlagworte und Kategorien"
         name: "taxonomies"
         widget: "object"
