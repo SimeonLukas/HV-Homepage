@@ -33,6 +33,14 @@
         </div>
         {% endif %}
 
+        {% if page.extra.download %}
+        {% for file in page.extra.download %}
+        <div class="post-download">
+          <a href="{{ file }}" target="_blank"><i class="bx bx-download"></i> {{ file | split(pat="/") | last }}</a>
+        </div>
+        {% endfor %}
+        {% endif %}
+
 
         {% if page.taxonomies.tags %}
         <div class="post-tags">
