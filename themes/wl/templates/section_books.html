@@ -72,9 +72,14 @@
 
       <br>
       <br>
-      <button><i class="bx bx-plus"></i> Merken</button>
+      <button onclick="addBook('{{ page.title }}')"><i class="bx bx-plus"></i> Merken</button>
       <br>
-      <button class=""><i class="bx bx-book-open"></i> Lesen</button>
+      {% if page.extra.download %}
+      {% for file in page.extra.download %}
+      <button class="" onclick="window.open('{{ file }}')"><i class="bx bx-book-open"></i> Lesen</button>
+      {% endfor %}
+      {% endif %}
+    
 
 
       </div>
