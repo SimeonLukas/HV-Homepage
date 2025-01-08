@@ -1,5 +1,5 @@
 +++
-title = "Aufgaben des Vereins"
+title = "Aufgaben"
 description = "Der Zweck des Vereins ist die Erforschung der Geschichte und Kultur Oberammergaus."
 date = "2019-01-11"
 template = "extra.html"

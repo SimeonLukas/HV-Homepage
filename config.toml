@@ -32,7 +32,7 @@ wanderlust_menu = [
     {url = "$BASE_URL/ueber-uns", name = "Über uns"},
     {url = "$BASE_URL/kontakt", name = "Kontakt"},
     {url = "$BASE_URL/ortsgeschichte", name = "Ortsgeschichte"},
-        {url = "$BASE_URL/aufgaben-des-vereins", name = "Aufgaben des Vereins"},
+        {url = "$BASE_URL/aufgaben-des-vereins", name = "Aufgaben"},
 ]
 wanderlust_social = [
     {url = "https://twitter.com", icon="name='twitter' type='logo'"},

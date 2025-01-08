@@ -652,6 +652,12 @@ img {
   max-width: 100%;
 }
 
+.post-content img {
+  object-fit: cover;
+width: 100%;
+height: 250px;
+}
+
 .clearfix:after {
   clear: both;
   content: ' ';
@@ -716,7 +722,8 @@ img {
 
 ul.navbar-nav.ml-auto {
   margin: 0;
-}
+  display: unset !important;
+--row-gap: unset !important;}
 
 
 .search-results{
@@ -831,6 +838,8 @@ footer .container{
   margin: 0 auto;
 }
 
+
+
 .page-heading {
   color: #fff;
   text-align: center;
@@ -929,10 +938,28 @@ article.book-preview {
 }
 
 /* post content */
+.post-content {
+
+}
+
+
+
 .post-content .image-container{
-float: left;
-margin: 10px;
-border-radius: 5px;
+  display: flex;
+      min-width: 250px;
+      margin: 15px;
+      flex-direction: column;
+      flex-wrap: nowrap;
+      align-content: ;
+      justify-content: center;
+      align-items: center;
+      width: 25%;
+      float: left;
+}
+
+
+.post-content {
+  min-height: 350px;
 }
 
 
