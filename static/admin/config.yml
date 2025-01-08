@@ -120,7 +120,7 @@ collections:
           name: "images"
           widget: "string"
           required: true
-       - label: "Download"
+        - label: "Download"
           name: "download"
           widget: "file"
           required: false
