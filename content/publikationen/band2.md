@@ -1,6 +1,7 @@
 +++
 title = "Einmal Oberammergau und zurück Reisetagebuch des Bauern Matthäus Storath aus Stockheim/Rhön"
 date = "2019-01-11"
+template = "book.html"
 
 [taxonomies]
 # categories = ["Publikationen"]

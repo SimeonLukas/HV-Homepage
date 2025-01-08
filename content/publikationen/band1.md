@@ -1,6 +1,7 @@
 +++
 title = "Oberammergau im Dritten Reich 1933 - 1945"
 date = "2019-01-11"
+template = "book.html"
 
 [taxonomies]
 # categories = ["Newsletter"]
