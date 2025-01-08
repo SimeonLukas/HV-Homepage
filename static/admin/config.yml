@@ -120,4 +120,11 @@ collections:
           name: "images"
           widget: "string"
           required: true
+       - label: "Download"
+          name: "download"
+          widget: "file"
+          required: false
+          media_library:
+            config:
+              multiple: true
         
