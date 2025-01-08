@@ -1,5 +1,5 @@
 +++
-paginate_by = 5
+paginate_by = 20
 sort_by = "date"
 template = "section_books.html"
 title = "Publikationen"

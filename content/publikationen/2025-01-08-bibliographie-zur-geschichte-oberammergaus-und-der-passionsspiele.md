@@ -2,7 +2,7 @@
 layout = "blog"
 template = "book.html"
 title = "Bibliographie zur Geschichte Oberammergaus und der Passionsspiele."
-date = "2025-01-08T22:40:00.000Z"
+date = "2019-01-10"
 
 [taxonomies]
 categories = ["Buch"]
