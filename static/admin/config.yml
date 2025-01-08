@@ -103,7 +103,8 @@ collections:
           required: true
         - label: "Lager"
           name: "stock"
-          widget: "string"
+          widget: "number"
+          value_type: "int"
           required: true
         - label: "Serie"
           name: "series"
