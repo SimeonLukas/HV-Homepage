@@ -1,8 +1,8 @@
 +++
 layout = "blog"
 title = "Heimatdichter mit vielen Gesichtern"
-date = "2018-09-17T13:00:00.000Z"
-description = "Keine Beschreibung angegeben"
+date = "2017-01-19T13:00:00.000Z"
+description = "Referentin: Professorin Dr. Gertraud Rösch"
 
 [taxonomies]
 categories = ["Newsletter"]
