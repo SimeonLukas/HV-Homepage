@@ -937,9 +937,12 @@ article.book-preview {
   justify-content: space-between;
 }
 
-/* post content */
-.post-content {
 
+.book-preview img {
+  object-fit: cover;
+  width: 200px;
+  height: 300px;
+  margin: 10px;
 }
 
 
