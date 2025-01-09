@@ -21,3 +21,6 @@ Ermäßigter Beitrag (Studenten, Schüler, etc) 05,00 Euro
 Bitte vollständig ausfüllen und unterschreiben und per Mail oder Post an Vorstand Franz Kümmerle (Anschrift siehe Formular) schicken!
 
 [Formular Download](/uploads/documents/Beitrittserkl-rung-HVO-+-SEPA-Lastschriftmandat-_2_.pdf)
+
+## Unsere E-Mail-Adresse
+[info@historischer-verein.de](mailto:info@historischer-verein.de)
