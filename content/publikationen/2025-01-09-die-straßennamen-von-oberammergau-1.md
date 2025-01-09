@@ -3,6 +3,7 @@ layout = "blog"
 template = "book.html"
 title = "Die Straßennamen von Oberammergau"
 date = "2025-01-09T20:33:00.000Z"
+weight = 4
 
 [taxonomies]
 categories = ["Buch"]

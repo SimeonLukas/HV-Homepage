@@ -2,6 +2,7 @@
 template = "book.html"
 title = "Einmal Oberammergau und zurück Reisetagebuch des Bauern Matthäus Storath aus Stockheim/Rhön"
 date = "2001-01-11T00:00:00.000Z"
+weight = 2
 
 [taxonomies]
 

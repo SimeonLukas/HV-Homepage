@@ -1020,6 +1020,7 @@ button#scroll-down {
   padding: 20px;
   border: 1px solid #888;
   border-radius: 15px;
+  max-width: 500px;
   width: 80%;
   animation:  swing 0.5s;
 }

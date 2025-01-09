@@ -1,6 +1,6 @@
 +++
 paginate_by = 999
-sort_by = "date"
+sort_by = "weight"
 template = "section_books.html"
 title = "Publikationen"
 description = "Alle Publikationen des historischen Vereins Oberammergau."

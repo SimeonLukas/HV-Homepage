@@ -2,6 +2,7 @@
 template = "book.html"
 title = "Oberammergau im Dritten Reich 1933 - 1945"
 date = "2000-01-11T00:00:00.000Z"
+weight = 1
 
 [taxonomies]
 
