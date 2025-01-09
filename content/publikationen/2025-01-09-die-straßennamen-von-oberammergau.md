@@ -1,23 +1,21 @@
 +++
-layout = "blog"
-template = "book.html"
-title = "Die Straßennamen von Oberammergau"
-date = "2019-12-12T00:00:00.000Z"
+title = "Chronik des Musikvereins Oberammergau 1906 - 2006 (Zu beziehen über Musikverein Oberammergau)"
+date = "2019-12-13T00:00:00.000Z"
 
 [taxonomies]
 categories = ["Buch"]
 tags = ["Geschichte"]
 
 [extra]
-pages = "224"
-price = "15,50"
-author = "Utschneider, Ludwig"
-band = "4"
-isbn = "3-9807212-3-X"
-stock = 3
+pages = "153"
+price = "o.A."
+author = "Musikverein Oberammergau e.V./ Utschneider, Ludwig"
+band = "5"
+isbn = "3-9807212-4-8"
+stock = 0
 series = "Der Ammergau, Schriftenreihe des Historischen Vereins Oberammergau 1999 e.V."
-images = "32"
-image = "/images/uploads/stra-ennamen.jpg"
-year = "2004"
+images = "0"
+image = "/images/uploads/musikverein.jpg"
+year = "2006"
 +++
-**Autor:** Utschneider, Ludwig**Jahr:** 2004**ISBN:** 3-9807212-3-X**Preis:** 15,50**Lager:** 3Der Ammergau, Schriftenreihe des Historischen Vereins Oberammergau 1999 e.V.**Band:** 4**Seiten:** 224**Bilder:** 32
+Musikverein Oberammergau e.V./ Utschneider, Ludwig**Jahr:** 2006**ISBN:** 3-9807212-4-8**Preis:** o.A.Der Ammergau, Schriftenreihe des Historischen Vereins Oberammergau 1999 e.V.**Band:** 5**Seiten:** 153**Bilder:** 0
