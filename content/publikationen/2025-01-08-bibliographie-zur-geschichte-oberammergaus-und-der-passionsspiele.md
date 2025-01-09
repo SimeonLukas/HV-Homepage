@@ -21,4 +21,18 @@ images = "0"
 image = "/images/uploads/biblisgraphie.gif"
 year = "2003"
 +++
-**Autor:** Utschneider, Ludwig**Jahr:** 2003**ISBN:** 3-9807212-2-1**Preis:** 6,50**Lager:** 0Der Ammergau, Schriftenreihe des Historischen Vereins Oberammergau 1999 e.V.**Band:** 3**Seiten:** 128
+**Autor:** Utschneider, Ludwig
+
+**Jahr:** 2003
+
+**ISBN:** 3-9807212-2-1
+
+**Preis:** 6,50
+
+**Lager:** 0
+
+Der Ammergau, Schriftenreihe des Historischen Vereins Oberammergau 1999 e.V.
+
+**Band:** 3
+
+**Seiten:** 128
