@@ -5,13 +5,13 @@ function toggleMenu() {
         document.getElementById("menu-button").classList.toggle("bx-x");
         document.getElementById("navbar-toggler").style.backgroundColor = "#009bdd";
         document.getElementById("navbar-toggler").style.color = "#fff";
-        document.getElementById("logo").style.transform = "scale(1.0)";
+        document.getElementById("logo").style.display = "block";
     } else {
         x.style.display = "flex";
         document.getElementById("menu-button").classList.toggle("bx-x");
         document.getElementById("navbar-toggler").style.backgroundColor = "#ff009d55";
         document.getElementById("navbar-toggler").style.color = "#000";
-        document.getElementById("logo").style.transform = "scale(0.3)";
+        document.getElementById("logo").style.display = "none";
     }
 }
 
