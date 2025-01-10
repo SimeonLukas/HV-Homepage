@@ -22,13 +22,25 @@ function parallax() {
     }
     }
 }
-window.addEventListener("scroll", parallax);
 
+function resizeLogo() {
+    var logo = document.getElementById("logo");
+    if (window.scrollY > 200) {
+        logo.style.width = "50px";
+        logo.style.height = "50px";
+    }
+    else {
+        logo.style.width = "100px";
+        logo.style.height = "100px";
+    }
+}
+window.addEventListener("scroll", parallax);
+window.addEventListener("scroll", resizeLogo);
 
 function scrollDown() {
     // smooth scroll on page
     window.scrollTo({
-        top: document.getElementById("block-container").offsetHeight - 100,
+        top: document.getElementById("block-container").offsetHeight - 800,
         behavior: "smooth"
     });
 }
