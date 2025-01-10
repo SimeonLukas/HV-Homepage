@@ -6,6 +6,11 @@
 <head>
 
   <meta charset="utf-8">
+  <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />
+<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+<link rel="shortcut icon" href="/favicon.ico" />
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+<link rel="manifest" href="/site.webmanifest" />
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="author" content="">
   <title>{% block title %}{{ config.title }}{% endblock title %}</title>
@@ -30,8 +35,8 @@
   <meta name="og:image" content="{{config.base_url}}{{ page.extra.image }}">
   <meta name="og:logo" content="{{config.base_url}}{{ page.extra.image }}">
   {% else %}
-  <meta name="og:image" content="{{ get_url(path="img/home-bg.jpg") }}">
-  <meta name="og:logo" content="{{ get_url(path="img/home-bg.jpg") }}">
+  <meta name="og:image" content="{{ get_url(path="/web-app-manifest-512x512.png") }}">
+  <meta name="og:logo" content="{{ get_url(path="/web-app-manifest-512x512.png") }}">
   {% endif %}
   <link rel="alternate" type="application/rss+xml" title="RSS" href="{{ get_url(path="rss.xml", trailing_slash=false) }}">
   {% endblock %}
