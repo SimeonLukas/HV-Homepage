@@ -1,5 +1,5 @@
 # The URL the site will be built for
-base_url = "https://historischer-verein.de "
+base_url = "https://blog.historischer-verein.de "
 theme = "wl"
 feed_filenames = ["rss.xml"]
 title = "Historischer Verein Oberammergau"
