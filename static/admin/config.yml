@@ -1,6 +1,6 @@
 backend:
-  name: git-gateway
-  repo: main
+  name: github
+  repo: SimeonLukas/HV-Homepage
 media_folder: "/static/images/uploads" 
 public_folder: "/images/uploads"
 locale: "de"
