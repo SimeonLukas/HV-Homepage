@@ -1,6 +1,6 @@
 +++
 layout = "blog"
-title = "Jahrsprogramm 2025"
+title = "Jahresprogramm 2025"
 date = "2025-05-16T13:00:00.000Z"
 description = "Bild: © rattanaku / Canva"
 
