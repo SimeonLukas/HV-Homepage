@@ -9,7 +9,7 @@ categories = ["Newsletter"]
 tags = ["Aktuell"]
 
 [extra]
-image = "/images/uploads/jahrsprogramm-hv.png"
+image = "/images/uploads/jahrsprogramm-hv-1-.png"
 publisher = "Historischer Verein Oberammergau 1999 e. V. "
 +++
 Im Rahmen eines Stammtischs des Historischen Vereins am **Freitag, 23. Mai 2025** ab 20 Uhr wird Quirin Held, der am Werdenfels-Gymnasium sein Abitur machte, über seine Seminararbeit zum Thema „**Oberammergauer Passion als Beispiel für dark tourism“** informieren. Es wird ein spannender Einblick in eine ganz neue Sichtweise auf die Passion.
