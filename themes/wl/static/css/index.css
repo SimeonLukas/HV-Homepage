@@ -960,6 +960,18 @@ article.book-preview {
       float: left;
 }
 
+@media screen and (max-width: 768px) {
+  .post-content .image-container{
+    width: 100%;
+    margin: 0 auto;
+    float: none;
+    margin-bottom: 10px;
+  }
+  
+}
+
+
+
 
 .post-content {
   min-height: 350px;
