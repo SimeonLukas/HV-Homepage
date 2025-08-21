@@ -16,7 +16,7 @@ Im Rahmen des **Tags des offenen Denkmals** am **Sonntag, 14. September 2025** l
 
 Ausgangs- und Endpunkt: Ammergauer Haus, Eugen-Papst-Straße 9a
 
-Zeitpunkt: 9.00 Uhr
+**Zeitpunkt: 14.00 Uhr (Achtung! Uhrzeit geändert!)**
 
 Zeitdauer: etwa 2 bis 3 Stunden ( Abhängig von Geh Tempo, Verweildauer an den einzelnen Punkten, der Diskussionsfreudigkeit  und Inanspruchnahme der vielen Rastbänke entlang des Weges).
 
