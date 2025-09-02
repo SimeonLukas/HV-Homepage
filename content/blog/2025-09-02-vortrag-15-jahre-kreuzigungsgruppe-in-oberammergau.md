@@ -1,6 +1,6 @@
 +++
 layout = "blog"
-title = "Vortrag: 15 Jahre Kreuzigungsgruppe in Oberammergau"
+title = "Vortrag: 150 Jahre Kreuzigungsgruppe in Oberammergau"
 date = "2025-09-02T08:15:00.000+02:00"
 description = "Plakatmotiv © Historischer Verein Oberammergau 1999 e.V."
 
