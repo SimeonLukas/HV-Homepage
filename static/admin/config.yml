@@ -3,6 +3,7 @@ backend:
   repo: SimeonLukas/HV-Homepage
 media_folder: "/static/images/uploads" 
 public_folder: "/images/uploads"
+logo_url: https://historischer-verein.de/images/logohverein.jpg
 locale: "de"
 collections:
   - name: "blog" # Used in routes, e.g., /admin/collections/blog
