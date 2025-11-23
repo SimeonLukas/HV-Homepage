@@ -12,7 +12,7 @@ tags = ["Aktuell"]
 [extra]
 pages = "116"
 price = "19,90"
-author = "Simone Späth"
+author = "Späth, Simone"
 band = "7"
 isbn = "978-3-98072-412-6-4"
 stock = 1
