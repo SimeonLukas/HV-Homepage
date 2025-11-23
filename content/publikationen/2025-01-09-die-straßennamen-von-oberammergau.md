@@ -1,7 +1,7 @@
 +++
 title = "Chronik des Musikvereins Oberammergau 1906 - 2006 (Zu beziehen über Musikverein Oberammergau)"
 date = "2006-01-01T00:00:00.000Z"
-weight = 5
+weight = 3
 
 [taxonomies]
 categories = ["Buch"]
