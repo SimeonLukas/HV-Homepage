@@ -3,7 +3,7 @@ layout = "blog"
 template = "book.html"
 title = "Joseph Diemer und seine Entdeckung der Neuen Welt"
 date = "2025-11-23T16:42:00.000+01:00"
-weight = 7
+weight = 1
 
 [taxonomies]
 categories = ["Newsletter"]
