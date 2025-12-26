@@ -1,6 +1,6 @@
 +++
 layout = "blog"
-title = "Neuer Titel in unserer Schriftenreihe: Joseph Diemer und seine Entdeckung der Neuen Welt"
+title = "Joseph Diemer und seine Entdeckung der Neuen Welt"
 date = "2025-12-26T16:23:00.000+01:00"
 description = "Garmisch-Partenkirchner-Tagblatt 24.12.2025Keine Beschreibung angegeben"
 
