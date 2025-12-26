@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+
+  <meta charset="utf-8">
+  <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />
+<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+<link rel="shortcut icon" href="/favicon.ico" />
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+<link rel="manifest" href="/site.webmanifest" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="author" content="">
+  <title>Historischer Verein Oberammergau</title>
+  
+  <meta name="og:site_name" content="Historischer Verein Oberammergau">
+  
+  <meta name="og:title" content="Historischer Verein Oberammergau">
+  
+ 
+  <meta name="og:description" content="Die Website des Historischen Vereins Oberammergau. Wir freuen uns auf Sie!">
+  <meta name="description" content="Die Website des Historischen Vereins Oberammergau. Wir freuen uns auf Sie!">
+  
+  
+  <meta name="og:url" content="https:&#x2F;&#x2F;historischer-verein.de">
+  <meta name="og:type" content="website">
+  
+  <meta name="og:image" content="https://historischer-verein.de/web-app-manifest-512x512.png">
+  <meta name="og:logo" content="https://historischer-verein.de/web-app-manifest-512x512.png">
+  
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="https://historischer-verein.de/rss.xml">
+  
+  <link rel="stylesheet" href="https://historischer-verein.de/css/index.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css" />
+
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar" id="mainNav">
+    <div class="container">
+      <div class="logo">
+      <!-- <a class="navbar-brand" href="https:&#x2F;&#x2F;historischer-verein.de">Historischer Verein Oberammergau</a> -->
+      <div id="logo">
+        <a href="https:&#x2F;&#x2F;historischer-verein.de"><img loading="lazy" src="/images/logohverein.jpg">
+        </a>
+      </div>
+      <button onclick="toggleMenu()" id="navbar-toggler">
+        Menü
+        <i id = 'menu-button' class='bx bx-menu'></i>
+      </button>
+      <br>
+      <button id="addBook" onclick="sendBooks()" >
+        Informationen anfordern
+        <i class='bx bx-send'></i>
+      </button>
+      </div>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          
+          <li class="nav-item">
+            <a class="nav-link"
+              href="https:&#x2F;&#x2F;historischer-verein.de&#x2F;">Startseite</a>
+          </li>
+          
+          <li class="nav-item">
+            <a class="nav-link"
+              href="https:&#x2F;&#x2F;historischer-verein.de&#x2F;blog">Beiträge</a>
+          </li>
+          
+          <li class="nav-item">
+            <a class="nav-link"
+              href="https:&#x2F;&#x2F;historischer-verein.de&#x2F;publikationen">Publikationen</a>
+          </li>
+          
+          <li class="nav-item">
+            <a class="nav-link"
+              href="https:&#x2F;&#x2F;historischer-verein.de&#x2F;ueber-uns">Über uns</a>
+          </li>
+          
+          <li class="nav-item">
+            <a class="nav-link"
+              href="https:&#x2F;&#x2F;historischer-verein.de&#x2F;kontakt">Kontakt</a>
+          </li>
+          
+          <li class="nav-item">
+            <a class="nav-link"
+              href="https:&#x2F;&#x2F;historischer-verein.de&#x2F;ortsgeschichte">Ortsgeschichte</a>
+          </li>
+          
+          <li class="nav-item">
+            <a class="nav-link"
+              href="https:&#x2F;&#x2F;historischer-verein.de&#x2F;aufgaben-des-vereins">Aufgaben</a>
+          </li>
+          
+          
+          <hr>
+                    <input class="input" id="search" placeholder="SUCHE" type="search" />
+          
+        </ul>
+        <div class="search-results" style="display: none; min-width: 300px;">
+        <li class="nav-item">Ergebnis</li>
+        <div class="search-results__items" style="max-width: 300px;"> </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Page Header -->
+  
+<!-- Page Header  Template für die Startseite-->
+
+<style>
+  #parallax {
+    width: 100vw;
+    height: 1400px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: 2;
+    animation: parallaxfadein 1s;
+    pointer-events: none;
+
+  }
+
+  #parallax img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: 0.3s ease-out;
+    object-fit: cover;
+    object-position: 70% top;
+  }
+
+  #block-container {
+    margin-top: 1040px;
+  }
+
+  #parallax h1 {
+    margin-top: 33%;
+    text-shadow: 3px 3px 3px #000000cc;
+    position: relative;
+    color: #fff;
+    font-size: 5.0rem;
+    text-align: left;
+    padding: 5px;
+    width: 100%;
+    transition: 0.3s ease-out;
+    pointer-events: all;
+    margin-left: 2vw;
+  }
+
+
+  #parallax h1:hover {
+    transform: scale(1.05);
+  }
+
+
+
+  @media screen and (max-width: 600px) {
+    #parallax {
+      height: 1040px;
+    }
+
+    #block-container {
+      margin-top: 800px;
+    }
+
+
+#parallax h1 {
+  font-size: 4.0rem;
+}
+
+
+
+  }
+</style>
+
+
+<div id="parallax">
+  <!-- <img loading="lazy" src="/images/parallax/l4.png"> -->
+  <img class="parrallax-img" src="/images/parallax/l5.png">
+  <img class="parrallax-img" loading="lazy" src="/images/parallax/l3.png">
+  <img class="parrallax-img" loading="lazy" src="/images/parallax/l2.png" style="margin-top: -10px;"">
+  <h1>Historischer Verein <br> Oberammergau</h1>
+  <img class="parrallax-img" loading="lazy" src="/images/parallax/l1.png" style="filter: drop-shadow(0px 10px 5px #000000cc); margin-top: -20px;">
+</div>
+<button id="scroll-down" class="btn" onclick="scrollDown()"><i class='bx bx-down-arrow-alt'></i></button>
+<header class="head">
+
+</header>
+
+
+  
+<!-- Main Content -->
+<div id="block-container" class="container">
+  <div>
+    <div>
+      <hr>
+      <div class="page-trigon">
+        <div class="third" onclick="location.href='/kontakt' ">
+          <i class='bx bxs-user-account bx-border-circle' ></i><br>
+          <span>Mitgliedschaft</span>
+        </div>
+        <div class="third " onclick="location.href='/publikationen' ">
+          <i class='bx bxs-book bx-border-circle' ></i><br>
+          <span>Publikationen</span>
+        </div>
+        <div class="third " onclick="location.href='/blog' ">
+          <i class='bx bx-news bx-border-circle' ></i><br>
+          <span >Beiträge</span>
+        </div>
+      </div>
+        <hr>
+        <h1 class="section-heading">Altes Oberammergau</h1>
+        <span class="section-subheading">Impressionen aus der Vergangenheit</span>
+        <br>
+        <br>
+        <div id="runner">
+          
+          <a href="/images/runner/runner1.jpg" class="glightbox">
+            <img class="runner oldphoto" loading="lazy" style="transform: rotate(-3deg);"
+              src="/images/runner/runner1.jpg">
+          </a>
+          
+          <a href="/images/runner/runner2.jpg" class="glightbox">
+            <img class="runner oldphoto" loading="lazy" style="transform: rotate(-4deg);"
+              src="/images/runner/runner2.jpg">
+          </a>
+          
+          <a href="/images/runner/runner3.jpg" class="glightbox">
+            <img class="runner oldphoto" loading="lazy" style="transform: rotate(-3deg);"
+              src="/images/runner/runner3.jpg">
+          </a>
+          
+          <a href="/images/runner/runner4.jpg" class="glightbox">
+            <img class="runner oldphoto" loading="lazy" style="transform: rotate(-4deg);"
+              src="/images/runner/runner4.jpg">
+          </a>
+          
+          <a href="/images/runner/runner5.jpg" class="glightbox">
+            <img class="runner oldphoto" loading="lazy" style="transform: rotate(-3deg);"
+              src="/images/runner/runner5.jpg">
+          </a>
+          
+          <a href="/images/runner/runner6.jpg" class="glightbox">
+            <img class="runner oldphoto" loading="lazy" style="transform: rotate(-1deg);"
+              src="/images/runner/runner6.jpg">
+          </a>
+          
+          <a href="/images/runner/runner7.jpg" class="glightbox">
+            <img class="runner oldphoto" loading="lazy" style="transform: rotate(-1deg);"
+              src="/images/runner/runner7.jpg">
+          </a>
+          
+          <a href="/images/runner/runner8.jpg" class="glightbox">
+            <img class="runner oldphoto" loading="lazy" style="transform: rotate(1deg);"
+              src="/images/runner/runner8.jpg">
+          </a>
+          
+          <a href="/images/runner/runner9.jpg" class="glightbox">
+            <img class="runner oldphoto" loading="lazy" style="transform: rotate(0deg);"
+              src="/images/runner/runner9.jpg">
+          </a>
+          
+          <a href="/images/runner/runner10.jpg" class="glightbox">
+            <img class="runner oldphoto" loading="lazy" style="transform: rotate(-2deg);"
+              src="/images/runner/runner10.jpg">
+          </a>
+          
+          <a href="/images/runner/runner11.jpg" class="glightbox">
+            <img class="runner oldphoto" loading="lazy" style="transform: rotate(2deg);"
+              src="/images/runner/runner11.jpg">
+          </a>
+          
+          <a href="/images/runner/runner12.jpg" class="glightbox">
+            <img class="runner oldphoto" loading="lazy" style="transform: rotate(0deg);"
+              src="/images/runner/runner12.jpg">
+          </a>
+          
+          <a href="/images/runner/runner13.jpg" class="glightbox">
+            <img class="runner oldphoto" loading="lazy" style="transform: rotate(-3deg);"
+              src="/images/runner/runner13.jpg">
+          </a>
+          
+          <a href="/images/runner/runner14.jpg" class="glightbox">
+            <img class="runner oldphoto" loading="lazy" style="transform: rotate(-5deg);"
+              src="/images/runner/runner14.jpg">
+          </a>
+          
+          <a href="/images/runner/runner15.jpg" class="glightbox">
+            <img class="runner oldphoto" loading="lazy" style="transform: rotate(-1deg);"
+              src="/images/runner/runner15.jpg">
+          </a>
+          
+          <a href="/images/runner/runner16.jpg" class="glightbox">
+            <img class="runner oldphoto" loading="lazy" style="transform: rotate(-3deg);"
+              src="/images/runner/runner16.jpg">
+          </a>
+          
+          <a href="/images/runner/runner17.jpg" class="glightbox">
+            <img class="runner oldphoto" loading="lazy" style="transform: rotate(0deg);"
+              src="/images/runner/runner17.jpg">
+          </a>
+          
+          <a href="/images/runner/runner18.jpg" class="glightbox">
+            <img class="runner oldphoto" loading="lazy" style="transform: rotate(2deg);"
+              src="/images/runner/runner18.jpg">
+          </a>
+          
+          <a href="/images/runner/runner19.jpg" class="glightbox">
+            <img class="runner oldphoto" loading="lazy" style="transform: rotate(4deg);"
+              src="/images/runner/runner19.jpg">
+          </a>
+          
+          <a href="/images/runner/runner20.jpg" class="glightbox">
+            <img class="runner oldphoto" loading="lazy" style="transform: rotate(2deg);"
+              src="/images/runner/runner20.jpg">
+          </a>
+          
+          <a href="/images/runner/runner21.jpg" class="glightbox">
+            <img class="runner oldphoto" loading="lazy" style="transform: rotate(-3deg);"
+              src="/images/runner/runner21.jpg">
+          </a>
+          
+          <a href="/images/runner/runner22.jpg" class="glightbox">
+            <img class="runner oldphoto" loading="lazy" style="transform: rotate(-3deg);"
+              src="/images/runner/runner22.jpg">
+          </a>
+          
+          <a href="/images/runner/runner23.jpg" class="glightbox">
+            <img class="runner oldphoto" loading="lazy" style="transform: rotate(4deg);"
+              src="/images/runner/runner23.jpg">
+          </a>
+          
+          <a href="/images/runner/runner24.jpg" class="glightbox">
+            <img class="runner oldphoto" loading="lazy" style="transform: rotate(-2deg);"
+              src="/images/runner/runner24.jpg">
+          </a>
+          
+          <a href="/images/runner/runner25.jpg" class="glightbox">
+            <img class="runner oldphoto" loading="lazy" style="transform: rotate(-5deg);"
+              src="/images/runner/runner25.jpg">
+          </a>
+          
+          <a href="/images/runner/runner26.jpg" class="glightbox">
+            <img class="runner oldphoto" loading="lazy" style="transform: rotate(-4deg);"
+              src="/images/runner/runner26.jpg">
+          </a>
+          
+          <a href="/images/runner/runner27.jpg" class="glightbox">
+            <img class="runner oldphoto" loading="lazy" style="transform: rotate(0deg);"
+              src="/images/runner/runner27.jpg">
+          </a>
+          
+          <a href="/images/runner/runner28.jpg" class="glightbox">
+            <img class="runner oldphoto" loading="lazy" style="transform: rotate(1deg);"
+              src="/images/runner/runner28.jpg">
+          </a>
+          
+          <a href="/images/runner/runner29.jpg" class="glightbox">
+            <img class="runner oldphoto" loading="lazy" style="transform: rotate(-2deg);"
+              src="/images/runner/runner29.jpg">
+          </a>
+          
+          <a href="/images/runner/runner30.jpg" class="glightbox">
+            <img class="runner oldphoto" loading="lazy" style="transform: rotate(3deg);"
+              src="/images/runner/runner30.jpg">
+          </a>
+          
+          <a href="/images/runner/runner31.jpg" class="glightbox">
+            <img class="runner oldphoto" loading="lazy" style="transform: rotate(-1deg);"
+              src="/images/runner/runner31.jpg">
+          </a>
+          
+          <a href="/images/runner/runner32.jpg" class="glightbox">
+            <img class="runner oldphoto" loading="lazy" style="transform: rotate(-1deg);"
+              src="/images/runner/runner32.jpg">
+          </a>
+          
+          <a href="/images/runner/runner33.jpg" class="glightbox">
+            <img class="runner oldphoto" loading="lazy" style="transform: rotate(2deg);"
+              src="/images/runner/runner33.jpg">
+          </a>
+          
+          <a href="/images/runner/runner34.jpg" class="glightbox">
+            <img class="runner oldphoto" loading="lazy" style="transform: rotate(1deg);"
+              src="/images/runner/runner34.jpg">
+          </a>
+          
+          <a href="/images/runner/runner35.jpg" class="glightbox">
+            <img class="runner oldphoto" loading="lazy" style="transform: rotate(3deg);"
+              src="/images/runner/runner35.jpg">
+          </a>
+          
+          <a href="/images/runner/runner36.jpg" class="glightbox">
+            <img class="runner oldphoto" loading="lazy" style="transform: rotate(1deg);"
+              src="/images/runner/runner36.jpg">
+          </a>
+          
+          <a href="/images/runner/runner37.jpg" class="glightbox">
+            <img class="runner oldphoto" loading="lazy" style="transform: rotate(4deg);"
+              src="/images/runner/runner37.jpg">
+          </a>
+          
+          <a href="/images/runner/runner38.jpg" class="glightbox">
+            <img class="runner oldphoto" loading="lazy" style="transform: rotate(-1deg);"
+              src="/images/runner/runner38.jpg">
+          </a>
+          
+          <a href="/images/runner/runner39.jpg" class="glightbox">
+            <img class="runner oldphoto" loading="lazy" style="transform: rotate(2deg);"
+              src="/images/runner/runner39.jpg">
+          </a>
+          
+          <a href="/images/runner/runner40.jpg" class="glightbox">
+            <img class="runner oldphoto" loading="lazy" style="transform: rotate(-4deg);"
+              src="/images/runner/runner40.jpg">
+          </a>
+          
+          <a href="/images/runner/runner41.jpg" class="glightbox">
+            <img class="runner oldphoto" loading="lazy" style="transform: rotate(-4deg);"
+              src="/images/runner/runner41.jpg">
+          </a>
+          
+          <a href="/images/runner/runner42.jpg" class="glightbox">
+            <img class="runner oldphoto" loading="lazy" style="transform: rotate(-3deg);"
+              src="/images/runner/runner42.jpg">
+          </a>
+          
+          <a href="/images/runner/runner43.jpg" class="glightbox">
+            <img class="runner oldphoto" loading="lazy" style="transform: rotate(2deg);"
+              src="/images/runner/runner43.jpg">
+          </a>
+          
+          <a href="/images/runner/runner44.jpg" class="glightbox">
+            <img class="runner oldphoto" loading="lazy" style="transform: rotate(2deg);"
+              src="/images/runner/runner44.jpg">
+          </a>
+          
+          <a href="/images/runner/runner45.jpg" class="glightbox">
+            <img class="runner oldphoto" loading="lazy" style="transform: rotate(4deg);"
+              src="/images/runner/runner45.jpg">
+          </a>
+          
+        </div>
+      </div>
+    </div>
+    <hr>
+    <h1 class="section-heading">Jüngste Beiträge</h1>
+    <span class="section-subheading">Unsere aktuellsten Beiträge</span>
+    <br>
+    <br>
+    <div class="postlist">
+      
+      
+      <div class="post-preview">
+        
+<a href="https:&#x2F;&#x2F;historischer-verein.de&#x2F;blog&#x2F;neuer-titel-in-unserer-schriftenreihe-joseph-diemer-und-seine-entdeckung-der-neuen-welt&#x2F;">
+    <h2 class="post-title">Joseph Diemer und seine Entdeckung der Neuen Welt</h2>
+</a>
+<p class="post-meta"><i class="bx bx-calendar"></i>
+    26.12.2025</p>
+
+        <p class="post-summary"><p>Der Historische Verein Oberammergau 1999 e.V. freut sich, die Neuerscheinung seiner Vereinsschriftenreihe vorstellen zu dürfen: <strong>„Joseph Diemer und seine Entdeckung der Neuen Welt. Eine Reise von Oberammergau nach Amerika Mitte des 19. Jahrhunderts“</strong> von <strong>Simone Späth, M.A.<… <a href="https:&#x2F;&#x2F;historischer-verein.de&#x2F;blog&#x2F;neuer-titel-in-unserer-schriftenreihe-joseph-diemer-und-seine-entdeckung-der-neuen-welt&#x2F;"
+            class="btn btn-primary">Weiterlesen</a></p>
+
+      </div>
+      
+      <div class="post-preview">
+        
+<a href="https:&#x2F;&#x2F;historischer-verein.de&#x2F;blog&#x2F;vortrag-15-jahre-kreuzigungsgruppe-in-oberammergau&#x2F;">
+    <h2 class="post-title">Vortrag: 150 Jahre Kreuzigungsgruppe in Oberammergau</h2>
+</a>
+<p class="post-meta"><i class="bx bx-calendar"></i>
+    02.09.2025</p>
+
+        <p class="post-summary"><p>Nach seinem Besuch des Passionsspiels am 25. September 1871 kündigte König Ludwig II. der Gemeinde Oberammergau die Stiftung einer Kreuzigungsgruppe an. Als Aufstellungsort bestimmte er den Osterbichl oberhalb des Dorfes, auch die Inschriften legte er persönlich fest. Die Ausführung dieses weltwe… <a href="https:&#x2F;&#x2F;historischer-verein.de&#x2F;blog&#x2F;vortrag-15-jahre-kreuzigungsgruppe-in-oberammergau&#x2F;"
+            class="btn btn-primary">Weiterlesen</a></p>
+
+      </div>
+      
+      <div class="post-preview">
+        
+<a href="https:&#x2F;&#x2F;historischer-verein.de&#x2F;blog&#x2F;geschichtsexkursion-im-rahmen-des-tag-des-offenen-denkmals-2025-am-14-9-2025&#x2F;">
+    <h2 class="post-title">Geschichtsexkursion im Rahmen des  „Tag des offenen  Denkmals 2025“ am 14.9.2025</h2>
+</a>
+<p class="post-meta"><i class="bx bx-calendar"></i>
+    10.07.2025</p>
+
+        <p class="post-summary"><p>Im Rahmen des <strong>Tags des offenen Denkmals</strong> am <strong>Sonntag, 14. September 2025</strong> lädt der Historische Verein Oberammergau 1999 e.V. zu einer <strong>historischen Führung</strong> durch und um den Ort ein. Franz Kümmerle, zweiter Vorsitzender des Vereins, startet um 9 Uhr m… <a href="https:&#x2F;&#x2F;historischer-verein.de&#x2F;blog&#x2F;geschichtsexkursion-im-rahmen-des-tag-des-offenen-denkmals-2025-am-14-9-2025&#x2F;"
+            class="btn btn-primary">Weiterlesen</a></p>
+
+      </div>
+      
+      <div class="post-preview">
+        
+<a href="https:&#x2F;&#x2F;historischer-verein.de&#x2F;blog&#x2F;exkursion-zum-erinnerungsort-badehaus-jetzt-anmelden&#x2F;">
+    <h2 class="post-title">Exkursion zum Erinnerungsort BADEHAUS - Jetzt anmelden!</h2>
+</a>
+<p class="post-meta"><i class="bx bx-calendar"></i>
+    26.05.2025</p>
+
+        <p class="post-summary"><p>Am <strong>Samstag, 7. Juni 2025</strong> besuchen wir den <a href="https://erinnerungsort-badehaus.de/">Erinnerungsort BADEHAUS</a> in Wolfratshausen-Waldram. Um 14 Uhr haben wir die Gelegenheit, diesen besonderen Ort, der an die Zeit des Dritten Reichs und die Nachkriegszeit in der Loisachstadt… <a href="https:&#x2F;&#x2F;historischer-verein.de&#x2F;blog&#x2F;exkursion-zum-erinnerungsort-badehaus-jetzt-anmelden&#x2F;"
+            class="btn btn-primary">Weiterlesen</a></p>
+
+      </div>
+      
+      <a href="/blog/page/2/" class="btn btn-primary">Weiter <i class='bx bx-right-arrow-alt'></i></a>
+    </div>
+  </div>
+</div>
+</div>
+
+
+  <hr>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-links-1">
+        <span class="footer-link-label" ><i class="bx bx-info-circle"></i> Hinweise</span><br>
+        <i class="bx bx-file"></i> <a href="https:&#x2F;&#x2F;historischer-verein.de/datenschutz" class="footer-link">Datenschutz</a><br>
+        <i class="bx bx-file"></i> <a href="https:&#x2F;&#x2F;historischer-verein.de/impressum" class="footer-link">Impressum</a><br>
+        <i class="bx bx-map"></i> <a href="https:&#x2F;&#x2F;historischer-verein.de/sitemap.xml" class="footer-link">Sitemap</a><br>
+        <!-- RSS -->
+        <i class="bx bx-rss"></i> <a href="https:&#x2F;&#x2F;historischer-verein.de/rss.xml" class="footer-link">RSS</a><br>
+        &copy; <a href="https://staneks.de" class="footer-link" > Simeon Stanek
+          2025</a>
+        </div>
+        <div class ="footer-links-2">
+          <span class="footer-link-label"><i class="bx bx-book"></i> Seiten</span><br>
+          <i class="bx bx-chevron-right"></i> <a href="https:&#x2F;&#x2F;historischer-verein.de/blog" class="footer-link">Beiträge</a><br>
+          <i class="bx bx-chevron-right"></i> <a href="https:&#x2F;&#x2F;historischer-verein.de/aufgaben-des-vereins" class="footer-link">Aufgaben des Vereins</a><br>
+          <i class="bx bx-chevron-right"></i> <a href="https:&#x2F;&#x2F;historischer-verein.de/mitgliedschaft" class="footer-link">Mitgliedschaft</a><br>
+          <i class="bx bx-chevron-right"></i> <a href="https:&#x2F;&#x2F;historischer-verein.de/publikationen" class="footer-link">Publikationen</a><br>
+          <i class="bx bx-chevron-right"></i> <a href="https:&#x2F;&#x2F;historischer-verein.de/ortsgeschichte" class="footer-link">Ortsgeschichte</a><br>
+          
+          
+          <i class="bx bx-chevron-right"></i> <a href="https:&#x2F;&#x2F;historischer-verein.de&#x2F;satzung&#x2F;" class="footer-link">Satzung</a><br>
+          
+          <i class="bx bx-chevron-right"></i> <a href="https:&#x2F;&#x2F;historischer-verein.de&#x2F;kontakt&#x2F;" class="footer-link">Kontakt</a><br>
+          
+          <i class="bx bx-chevron-right"></i> <a href="https:&#x2F;&#x2F;historischer-verein.de&#x2F;datenschutz&#x2F;" class="footer-link">Datenschutz</a><br>
+          
+          <i class="bx bx-chevron-right"></i> <a href="https:&#x2F;&#x2F;historischer-verein.de&#x2F;ueber-uns&#x2F;" class="footer-link">Über uns</a><br>
+          
+          <i class="bx bx-chevron-right"></i> <a href="https:&#x2F;&#x2F;historischer-verein.de&#x2F;impressum&#x2F;" class="footer-link">Impressum</a><br>
+          
+        </div>
+        <div class ="footer-links-3">
+          <span class="footer-link-label" ><i class="bx bx-news"></i> Beiträge</span><br>
+          
+          
+          <i class="bx bx-chevron-right"></i> <a href="https:&#x2F;&#x2F;historischer-verein.de&#x2F;blog&#x2F;neuer-titel-in-unserer-schriftenreihe-joseph-diemer-und-seine-entdeckung-der-neuen-welt&#x2F;" class="footer-link">Joseph Diemer und se…</a><br>
+          
+          <i class="bx bx-chevron-right"></i> <a href="https:&#x2F;&#x2F;historischer-verein.de&#x2F;blog&#x2F;vortrag-15-jahre-kreuzigungsgruppe-in-oberammergau&#x2F;" class="footer-link">Vortrag: 150 Jahre K…</a><br>
+          
+          <i class="bx bx-chevron-right"></i> <a href="https:&#x2F;&#x2F;historischer-verein.de&#x2F;blog&#x2F;geschichtsexkursion-im-rahmen-des-tag-des-offenen-denkmals-2025-am-14-9-2025&#x2F;" class="footer-link">Geschichtsexkursion …</a><br>
+          
+          <i class="bx bx-chevron-right"></i> <a href="https:&#x2F;&#x2F;historischer-verein.de&#x2F;blog&#x2F;exkursion-zum-erinnerungsort-badehaus-jetzt-anmelden&#x2F;" class="footer-link">Exkursion zum Erinne…</a><br>
+          
+          <i class="bx bx-chevron-right"></i> <a href="https:&#x2F;&#x2F;historischer-verein.de&#x2F;blog&#x2F;oberammergauer-passion-als-beispiel-fur-dark-tourism&#x2F;" class="footer-link">Oberammergauer Passi…</a><br>
+          
+          <i class="bx bx-chevron-right"></i> <a href="https:&#x2F;&#x2F;historischer-verein.de&#x2F;blog&#x2F;jahrsprogramm-2025&#x2F;" class="footer-link">Jahresprogramm 2025</a><br>
+          
+          <i class="bx bx-chevron-right"></i> <a href="https:&#x2F;&#x2F;historischer-verein.de&#x2F;blog&#x2F;das-ende-einer-ara-im-historischen-verein-oberammergau&#x2F;" class="footer-link">Das Ende einer Ära i…</a><br>
+          
+          <i class="bx bx-chevron-right"></i> <a href="https:&#x2F;&#x2F;historischer-verein.de&#x2F;blog&#x2F;der-polit-rupel-vortrag-uber-donald-trump&#x2F;" class="footer-link">Der Polit-Rüpel: Vor…</a><br>
+          
+        </div>
+
+    </div>
+  </footer>
+
+
+
+  
+
+
+
+
+  <script src="https://historischer-verein.de/js/index.js"></script>
+  
+  <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/mcstudios/glightbox/dist/js/glightbox.min.js"></script>
+  <script src="https://historischer-verein.de/elasticlunr.min.js"></script>
+  <script src="https://historischer-verein.de/js/lunr.stemmer.support.js"></script>
+  <script src="https://historischer-verein.de/js/lunr.de.js"></script>
+  <script src="https://historischer-verein.de/js/search.js"></script>
+
+  <script type="text/javascript">
+    const lightbox = GLightbox({ 
+      
+    });
+
+  </script>
+  
+
+  
+</body>
+</html>
