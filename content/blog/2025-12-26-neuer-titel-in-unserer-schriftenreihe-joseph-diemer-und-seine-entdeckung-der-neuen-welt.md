@@ -27,7 +27,7 @@ Eine entscheidende Wendung ergab sich erst Jahre später, als durch zusätzliche
 
 Mit dieser Neuerscheinung leistet der Historische Verein Oberammergau einen wichtigen Beitrag zur lokalen Migrations- und Sozialgeschichte des 19. Jahrhunderts und macht zugleich ein bislang wenig bekanntes Kapitel der Oberammergauer Vergangenheit einer breiten Öffentlichkeit zugänglich.
 
-Das Buch ist ab sofort über den Historischen Verein Oberammergau, im Geschäft der Firma Lang selig Erben sowie in der Buchhandlung Schwarz erhältlich.
+Das Buch ist ab sofort über [unsere Homepage,](https://historischer-verein.de/publikationen/) im Geschäft der Firma Lang selig Erben sowie in der Buchhandlung Schwarz erhältlich.
 
 **ISBN 9783980721264** 
 
