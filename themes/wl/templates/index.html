@@ -75,13 +75,26 @@
 
 <div id="parallax">
   <!-- <img loading="lazy" src="/images/parallax/l4.png"> -->
-  <img class="parrallax-img" src="/images/parallax/l5.png">
-  <img class="parrallax-img" loading="lazy" src="/images/parallax/l3.png">
-  <img class="parrallax-img" loading="lazy" src="/images/parallax/l2.png" style="margin-top: -10px;"">
+  <img id="para5" class="parrallax-img" src="/images/parallax/q1/l5.png">
+  <img id="para3" class="parrallax-img" loading="lazy" src="/images/parallax/q1/l3.png">
+  <img id="para2" class="parrallax-img" loading="lazy" src="/images/parallax/q1/l2.png" style="margin-top: -10px;"">
   <h1>Historischer Verein <br> Oberammergau</h1>
-  <img class="parrallax-img" loading="lazy" src="/images/parallax/l1.png" style="filter: drop-shadow(0px 10px 5px #000000cc); margin-top: -20px;">
+  <img id="para1" class="parrallax-img" loading="lazy" src="/images/parallax/q1/l1.png" style="filter: drop-shadow(0px 10px 5px #000000cc); margin-top: -20px;">
 </div>
 <button id="scroll-down" class="btn" onclick="scrollDown()"><i class='bx bx-down-arrow-alt'></i></button>
+
+<script>
+  // Zufällige Auswahl zwischen q0, q1 und q3 beim Laden
+  (function() {
+    const folders = ['q0', 'q1', 'q2'];
+    const folder = folders[Math.floor(Math.random() * folders.length)];
+    const images = document.querySelectorAll('#parallax .parrallax-img');
+    
+    images.forEach(img => {
+      img.src = img.src.replace(/q[013]/, folder);
+    });
+  })();
+</script>
 <header class="head">
 
 </header>
