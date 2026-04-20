@@ -1,7 +1,7 @@
 +++
 layout = "blog"
 title = "Jahresprogramm 2026"
-date = "2026-04-20T15:00:00.000+02:00"
+date = "2026-04-20T15:15:00.000+02:00"
 description = "Keine Beschreibung angegeben"
 
 [taxonomies]
