@@ -2,7 +2,7 @@
 layout = "blog"
 title = "Jahresprogramm 2026"
 date = "2026-04-21T07:55:00.000+02:00"
-description = "Keine Beschreibung angegeben"
+description = "  Bild: © rattanaku / Canva"
 
 [taxonomies]
 categories = ["Newsletter"]
@@ -10,7 +10,7 @@ tags = ["Aktuell"]
 
 [extra]
 image = "/images/uploads/jahrsprogramm-hv-1-.png"
-publisher = "  Bild: © rattanaku / Canva"
+publisher = "Historischer Verein Oberammergau 1999 e.V."
 +++
 Nachdem das erste Quartal 2026 von den Kommunalwahlen geprägt war, möchten wir nun in das Vereinsjahr starten und über unser Programm für 2026 informieren.
 
