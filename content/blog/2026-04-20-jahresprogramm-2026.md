@@ -20,7 +20,7 @@ Am Donnerstag, 21. Mai 2026, ist eine Führung durch das Marktarchiv Garmisch-Pa
 Treffpunkt ist um 17:00 Uhr am Rathaus Garmisch-Partenkirchen. Marktarchivar Leonhard Herr wird uns die besonderen Bestände des Archivs vorstellen.
 
 Die Teilnehmerzahl ist auf zehn Personen begrenzt.
-Wir bitten daher um Anmeldung bis spätestens 19. Mai 2026 unter [info@historischer-verein.de](<>) oder 08822-922790.
+Wir bitten daher um Anmeldung bis spätestens 19. Mai 2026 unter [info@historischer-verein.de](info@historischer-verein.de) oder 08822-922790.
 
 ### Vortrag Prof. Stephan Bierling – USA
 
