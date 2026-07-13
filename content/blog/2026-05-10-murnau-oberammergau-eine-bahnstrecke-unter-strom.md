@@ -1,7 +1,7 @@
 +++
 layout = "blog"
 title = "Murnau - Oberammergau eine Bahnstrecke  unter Strom"
-date = "2026-05-10T13:48:00.000+02:00"
+date = "2026-07-13T08:46:00.000+02:00"
 description = "© Bernd Mühlstraßer / Historischer Verein Oberammergau 1999 e.V. / Canva"
 
 [taxonomies]
