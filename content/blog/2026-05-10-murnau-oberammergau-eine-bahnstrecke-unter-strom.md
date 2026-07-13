@@ -12,6 +12,6 @@ tags = ["Aktuell"]
 image = "/images/uploads/plakat-mühlstraßer-v2.png"
 publisher = "Historischer Verein Oberammergau 1999 e. V. "
 +++
-Am **Donnerstag, 23. Juli 2026**, dürfen wir **Bernd Mühlstraßer** begrüßen. Er referiert um **20:00 Uhr** im **klleinen Saal des katholischen Pfarrheims** über die Geschichte der Eisenbahnstrecke Murnau - Oberammergau.
+Am **Donnerstag, 23. Juli 2026** haben wir **Bernd Mühlstraßer** zu Gast. Er referiert um **20:00 Uhr** im **kleinen Saal des katholischen Pfarrheims** über die Geschichte der Eisenbahnstrecke Murnau - Oberammergau.
 
 Eintritt frei: Spenden erbeten
