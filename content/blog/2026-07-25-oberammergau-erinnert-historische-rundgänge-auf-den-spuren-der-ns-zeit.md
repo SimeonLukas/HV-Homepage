@@ -9,7 +9,7 @@ categories = ["Newsletter"]
 tags = ["Aktuell"]
 
 [extra]
-image = "/images/uploads/419.jpg"
+image = "/images/uploads/800.jpg"
 publisher = "Historischer Verein Oberammergau 1999 e.V."
 +++
 Oberammergau in der NS-Zeit – was ist davon heute noch zu sehen? Das Projekt *[Oberammergau erinnert](www.oberammergau-erinnert.de)* ist in Kooperation mit uns entstanden. In zwei thematisch unterschiedlichen Rundgängen durch den Ort erfahren Sie mehr zu Oberammergaus Geschichte im Nationalsozialismus: von der ‚Machtergreifung‘ über die Jubiläums-Passionsspiele 1934 bis hin zu Krieg, Rüstung und Zwangsarbeit.    
@@ -27,5 +27,3 @@ Sa, 15.08.2026, 10 Uhr
 Mehr Termine und Infos finden Sie auf der [Webseite des Projekts.](www.oberammergau-erinnert.de)
 
 Anmeldungen sind aufgrund der begrenzen Teilnehmerzahl pro Führung Voraussetzung und können über die [Webseite](www.oberammergau-erinnert.de) getätigt werden.
-
-\
