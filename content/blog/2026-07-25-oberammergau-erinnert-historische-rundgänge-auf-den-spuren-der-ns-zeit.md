@@ -24,6 +24,6 @@ Sa, 08.08.2026, 10 Uhr
 
 Sa, 15.08.2026, 10 Uhr
 
-Mehr Termine und Infos finden Sie auf der [Webseite des Projekts.](www.oberammergau-erinnert.de)
+Mehr Termine und Infos finden Sie auf der [Webseite des Projekts.](https://www.oberammergau-erinnert.de)
 
-Anmeldungen sind aufgrund der begrenzen Teilnehmerzahl pro Führung Voraussetzung und können über die [Webseite](www.oberammergau-erinnert.de) getätigt werden.
+Anmeldungen sind aufgrund der begrenzen Teilnehmerzahl pro Führung Voraussetzung und können über die [Webseite](https://www.oberammergau-erinnert.de) getätigt werden.
