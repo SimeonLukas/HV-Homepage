@@ -18,8 +18,8 @@ Er spricht über die Entwicklung des Textes der Passionsspiele im 20. Jahrhunder
 
 Die Veranstaltung finden in Kooperation mit dem Oberammergau Museum statt. 
 
-Beginn: 20 Uhr 
+**Beginn:** 20 Uhr 
 
-Ort: Foyer des Passionstheaters, Othmar-Weis-Straße 1,  Oberammergau
+**Ort:** Foyer des Passionstheaters, Othmar-Weis-Straße 1,  Oberammergau
 
-Eintritt frei: Spenden erbeten
+**Eintritt frei:** Spenden erbeten
