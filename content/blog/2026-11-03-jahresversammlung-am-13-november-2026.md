@@ -12,11 +12,7 @@ tags = ["Aktuell"]
 image = ""
 publisher = "Historischer Verein Oberammergau 1999 e. V. "
 +++
-Am **Freitag, 13. November 2026** findet unsere **Jahresversammlung** mit **Neuwahlen des Vorstands** statt.
-
-Er spricht über die Entwicklung des Textes der Passionsspiele im 20. Jahrhundert. Grundlage ist seine im vergangenen Jahr erschienene Studie„Oberammergau und die Juden 1900–2022. Eine kommentierende Synopse“.
-
-Im Anschluss an die Versammlung (ab ca. 20 Uhr) findet ein Vortrag von Brigitta Pirzer zum Thema Oberammergau in Amerika – die USA-Reise nach der Passion 1922“ statt.
+Am **Freitag, 13. November 2026** findet unsere **Jahresversammlung** mit **Neuwahlen des Vorstands** statt. Im Anschluss an die Versammlung (ab ca. 20 Uhr) findet ein Vortrag von Brigitta Pirzer zum Thema Oberammergau in Amerika – die USA-Reise nach der Passion 1922“ statt.
 
 Informationen zum Vortrag:
 
