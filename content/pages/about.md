@@ -10,7 +10,9 @@ image = "/images/uploads/vorstand.jpg"
 +++
 
 
-![width="300" height="300" src="/images/uploads/bilder-histor.-verein-teil-30012-large.jpg"](/images/uploads/vorstand.jpg "Historischer Verein Oberammergau")
+![width="300" height="300" src="/images/uploads/vorstand.jpg"](/images/uploads/vorstand.jpg "Historischer Verein Oberammergau © Wilfried Nass")
+
+<p>© Wilfried Nass</p>
 
 |1. Vorsitzender|2. Vorsitzender|
 |:---:|:---:|
