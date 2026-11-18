@@ -18,7 +18,7 @@ Ermäßigter Beitrag (Studenten, Schüler, etc) 05,00 Euro
 
 ## Beitrittserklärung
 
-Bitte vollständig ausfüllen und unterschreiben und per Mail oder Post an Vorstand Franz Kümmerle (Anschrift siehe Formular) schicken!
+Bitte vollständig ausfüllen und unterschreiben und per Mail oder Post an Vorstand Ludwig Utschneider (Anschrift siehe Formular) schicken!
 
 [Formular Download](/uploads/documents/Beitrittserklarung.pdf)
 

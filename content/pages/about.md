@@ -18,8 +18,8 @@ image = "/images/uploads/vorstand.jpg"
 
 |Kassier| Schriftfürer|
 |:---:|:---:|
-|Dr. Dieter Rödel <br>Ahornstraße 11 <br>  82377 Penzberg <br> Tel. 0 88 56 / 59 90 <br> E-Mail: dr.roedel@t-online.de|Martin Kleiner<br>Kolbengasse 9<br>82487 Oberammergau<br>kleiner@bn-gap.de
+|Elisabeth Kemper|Martin Kleiner
 
 |Beisitzer|
 |:---:|
-|Maria Blaschke  <br>Simone Späth <br>Elisabeth Kemper|
+|Florian Lang  <br>Ulrike Hackenberg <br>Simone Späth|
