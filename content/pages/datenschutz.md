@@ -10,10 +10,10 @@ image = "/images/logohverein.jpg"
 +++
 
 **Historischer Verein Oberammergau 1999 e. V.**  
-Vertreten durch: Franz Kümmerle  
-Leupoldstr. 6  
+Vorstand: Ludwig Utschneider 
+Hillernstraße
 D-82487 Oberammergau  
-Tel.: 0 88 22 / 45 95  
+Tel.: 0 88 22 / 92 27 90
 E-Mail: info@historischer-verein.de
 
 ## 1. Grundsätzliches zur Verarbeitung personenbezogener Daten

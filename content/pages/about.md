@@ -16,10 +16,10 @@ image = "/images/uploads/vorstand.jpg"
 |:---:|:---:|
 |Ludwig Utschneider M.A. <br> Hillernstraße<br> D-82487 Oberammergau <br> Tel. 0 88 22 / 92 27 90 <br> E-Mail: ludwig.utschneider@t-online.de|Franz Kümmerle <br>Leupoldstraße 6<br>82487 Oberammergau<br>Tel. 0 88 22 / 45 95<br> E-Mail: info@historischer-verein.de|
 
-|Kassier| Schriftfürer|
+|Kassiererin| Schriftführer|
 |:---:|:---:|
 |Elisabeth Kemper|Martin Kleiner
 
-|Beisitzer|
+|Beisitzer*innen|
 |:---:|
 |Florian Lang  <br>Ulrike Hackenberg <br>Simone Späth|
