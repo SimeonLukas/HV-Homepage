@@ -12,7 +12,7 @@ tags = ["Aktuell"]
 [extra]
 pages = "-"
 price = "-"
-author = "Späth, Simone,; Utschneider, Ludwig; Kümmerle, Franz; Kleiner, Martin"
+author = "Kleiner, Martin; Kümmerle, Franz; Späth, Simone; Utschneider, Ludwig"
 band = "Heft 2"
 isbn = "-"
 stock = 1
@@ -21,7 +21,7 @@ images = "-"
 image = "/images/uploads/2026-11-25-14_56_48-der-kraxentrager-heft-2-vorlage-druckerei-25112024n.pdf-—-mozilla-firefox.png"
 year = "2024"
 +++
-**Autor:** Späth, Simone,; Utschneider, Ludwig; Kümmerle, Franz; Kleiner, Martin
+**Autor:** Kleiner, Martin; Kümmerle, Franz; Späth, Simone; Utschneider, Ludwig
 
 **Jahr:** 2024
 
