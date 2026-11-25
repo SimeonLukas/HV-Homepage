@@ -3,7 +3,7 @@ layout = "blog"
 template = "book.html"
 title = "Der Ammergauer Kraxentrager"
 date = "2025-11-23T16:42:00.000+01:00"
-weight = 1
+weight = 2
 
 [taxonomies]
 categories = ["Newsletter"]
